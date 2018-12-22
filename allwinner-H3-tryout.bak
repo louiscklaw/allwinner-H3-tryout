@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -25,5 +25,11 @@ S 9400 3550 1050 900
 U 5C1E10A8
 F0 "SDIO_WIFI_BT" 50
 F1 "SDIO_WIFI_BT.sch" 50
+$EndSheet
+$Sheet
+S 9400 2300 1050 900 
+U 5C1E2333
+F0 "ETH_PHY" 50
+F1 "ETH_PHY.sch" 50
 $EndSheet
 $EndSCHEMATC
