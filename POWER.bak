@@ -244,6 +244,17 @@ F 3 "" H 8150 2750 50  0001 C CNN
 	1    8150 2750
 	1    0    0    -1  
 $EndComp
+$Comp
+L taobao-components:Vdram #PWR?
+U 1 1 5C793E20
+P 8800 2750
+F 0 "#PWR?" H 8800 2600 50  0001 C CNN
+F 1 "Vdram" H 8850 2900 50  0000 C CNN
+F 2 "" H 8800 2750 50  0001 C CNN
+F 3 "" H 8800 2750 50  0001 C CNN
+	1    8800 2750
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	7500 2900 7700 2900
 $Comp
@@ -381,15 +392,4 @@ Wire Wire Line
 Wire Wire Line
 	8700 3650 8550 3650
 Connection ~ 8550 3650
-$Comp
-L taobao-components:V_DRAM #PWR?
-U 1 1 5C79C9EE
-P 8800 2750
-F 0 "#PWR?" H 8800 2600 50  0001 C CNN
-F 1 "V_DRAM" H 8850 2900 50  0000 C CNN
-F 2 "" H 8800 2750 50  0001 C CNN
-F 3 "" H 8800 2750 50  0001 C CNN
-	1    8800 2750
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
