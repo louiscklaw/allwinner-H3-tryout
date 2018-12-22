@@ -1,0 +1,732 @@
+EESchema Schematic File Version 4
+LIBS:allwinner-H3-tryout-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L taobao-components:AP6212 U?
+U 1 1 5C1E2F46
+P 5800 3350
+F 0 "U?" V 4400 3350 50  0000 C CNN
+F 1 "AP6212" V 4500 3350 50  0000 C CNN
+F 2 "" H 4600 3200 50  0001 C CNN
+F 3 "" H 4600 3200 50  0001 C CNN
+	1    5800 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L taobao-c:C105,0603 C?
+U 1 1 5C1E31C2
+P 1950 2400
+F 0 "C?" H 2050 2450 50  0000 L CNN
+F 1 "C105,0603" H 2050 2400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1950 2400 50  0001 C CNN
+F 3 "~" H 1950 2400 50  0001 C CNN
+	1    1950 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C1E3253
+P 1950 2700
+F 0 "#PWR?" H 1950 2450 50  0001 C CNN
+F 1 "GND" H 2000 2500 50  0000 C CNN
+F 2 "" H 1950 2700 50  0001 C CNN
+F 3 "" H 1950 2700 50  0001 C CNN
+	1    1950 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 2150 1950 2250
+Wire Wire Line
+	1950 2500 1950 2700
+$Comp
+L taobao-r:R513,0603 R?
+U 1 1 5C1E33DE
+P 2900 2550
+F 0 "R?" H 3000 2600 50  0000 L CNN
+F 1 "R513,0603" H 3000 2550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2900 2550 50  0001 C CNN
+F 3 "~" H 2900 2550 50  0001 C CNN
+	1    2900 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-r:R513,0603 R?
+U 1 1 5C1E34A7
+P 3100 2550
+F 0 "R?" H 3200 2600 50  0000 L CNN
+F 1 "R513,0603" H 3200 2550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3100 2550 50  0001 C CNN
+F 3 "~" H 3100 2550 50  0001 C CNN
+	1    3100 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-r:R513,0603 R?
+U 1 1 5C1E34C3
+P 3300 2550
+F 0 "R?" H 3400 2600 50  0000 L CNN
+F 1 "R513,0603" H 3400 2550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3300 2550 50  0001 C CNN
+F 3 "~" H 3300 2550 50  0001 C CNN
+	1    3300 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-r:R513,0603 R?
+U 1 1 5C1E3513
+P 3500 2550
+F 0 "R?" H 3600 2600 50  0000 L CNN
+F 1 "R513,0603" H 3600 2550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3500 2550 50  0001 C CNN
+F 3 "~" H 3500 2550 50  0001 C CNN
+	1    3500 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-r:R513,0603 R?
+U 1 1 5C1E3533
+P 3700 2550
+F 0 "R?" H 3800 2600 50  0000 L CNN
+F 1 "R513,0603" H 3800 2550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3700 2550 50  0001 C CNN
+F 3 "~" H 3700 2550 50  0001 C CNN
+	1    3700 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-r:R513,0603 R?
+U 1 1 5C1E3574
+P 3900 2550
+F 0 "R?" H 4000 2600 50  0000 L CNN
+F 1 "R513,0603" H 4000 2550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3900 2550 50  0001 C CNN
+F 3 "~" H 3900 2550 50  0001 C CNN
+	1    3900 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 2250 2900 2450
+Connection ~ 1950 2250
+Wire Wire Line
+	1950 2250 1950 2300
+Wire Wire Line
+	3100 2450 3100 2250
+Wire Wire Line
+	3300 2250 3300 2450
+Wire Wire Line
+	2900 2250 3100 2250
+Wire Wire Line
+	3500 2250 3500 2450
+Connection ~ 2900 2250
+Wire Wire Line
+	3100 2250 3300 2250
+Wire Wire Line
+	3700 2250 3700 2450
+Connection ~ 3100 2250
+Wire Wire Line
+	3300 2250 3500 2250
+Wire Wire Line
+	3900 2250 3900 2450
+Connection ~ 3300 2250
+Text Label 2150 2850 0    50   ~ 0
+WL-PWR-EN
+Text Label 2150 2950 0    50   ~ 0
+WL-WAKE-AP
+Text Label 2150 3050 0    50   ~ 0
+WL-SDIO-D2
+Text Label 2150 3150 0    50   ~ 0
+WL-SDIO-D3
+Text Label 2150 3250 0    50   ~ 0
+WL-SDIO-CMD
+Text Label 2150 3350 0    50   ~ 0
+WL-SDIO-CLK
+Text Label 2150 3450 0    50   ~ 0
+WL-SDIO-D0
+Text Label 2150 3550 0    50   ~ 0
+WL-SDIO-D1
+Wire Wire Line
+	1950 2250 2900 2250
+Wire Wire Line
+	3500 2250 3700 2250
+Connection ~ 3500 2250
+Connection ~ 3700 2250
+Wire Wire Line
+	3700 2250 3900 2250
+Wire Wire Line
+	2150 2850 4550 2850
+Wire Wire Line
+	2150 2950 4550 2950
+Wire Wire Line
+	2150 3050 3900 3050
+Wire Wire Line
+	2150 3150 3700 3150
+Wire Wire Line
+	2150 3250 3500 3250
+Wire Wire Line
+	2150 3350 3300 3350
+Wire Wire Line
+	2150 3450 3100 3450
+Wire Wire Line
+	2150 3550 2900 3550
+Wire Wire Line
+	3900 3050 3900 2650
+Connection ~ 3900 3050
+Wire Wire Line
+	3900 3050 4550 3050
+Wire Wire Line
+	3700 2650 3700 3150
+Connection ~ 3700 3150
+Wire Wire Line
+	3700 3150 4550 3150
+Wire Wire Line
+	3500 2650 3500 3250
+Connection ~ 3500 3250
+Wire Wire Line
+	3500 3250 4550 3250
+Wire Wire Line
+	3300 2650 3300 3350
+Connection ~ 3300 3350
+Wire Wire Line
+	3300 3350 4550 3350
+Wire Wire Line
+	3100 2650 3100 3450
+Connection ~ 3100 3450
+Wire Wire Line
+	3100 3450 4550 3450
+Wire Wire Line
+	2900 2650 2900 3550
+Connection ~ 2900 3550
+Wire Wire Line
+	2900 3550 4550 3550
+$Comp
+L taobao-c:C106,0603 C?
+U 1 1 5C1E54CD
+P 4150 4100
+F 0 "C?" H 4250 4150 50  0000 L CNN
+F 1 "C106,0603" H 4250 4100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4150 4100 50  0001 C CNN
+F 3 "~" H 4150 4100 50  0001 C CNN
+	1    4150 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C1E552F
+P 4150 4400
+F 0 "#PWR?" H 4150 4150 50  0001 C CNN
+F 1 "GND" H 4200 4200 50  0000 C CNN
+F 2 "" H 4150 4400 50  0001 C CNN
+F 3 "" H 4150 4400 50  0001 C CNN
+	1    4150 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 4400 4150 4200
+Wire Wire Line
+	3950 3850 4150 3850
+Wire Wire Line
+	4150 3850 4150 4000
+Wire Wire Line
+	4550 3850 4150 3850
+Connection ~ 4150 3850
+$Comp
+L power:GND #PWR?
+U 1 1 5C1E6601
+P 3450 3650
+F 0 "#PWR?" H 3450 3400 50  0001 C CNN
+F 1 "GND" V 3450 3500 50  0000 R CNN
+F 2 "" H 3450 3650 50  0001 C CNN
+F 3 "" H 3450 3650 50  0001 C CNN
+	1    3450 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3450 3650 4550 3650
+$Comp
+L taobao-l:L_4.7uH,CD43 L?
+U 1 1 5C1E6E1A
+P 2650 4400
+F 0 "L?" H 2600 4350 50  0000 R CNN
+F 1 "4.7uH,800mA,DCR<0.1R" H 2600 4400 50  0000 R CNN
+F 2 "w_smd_inductors:inductor_smd_4.8x2.8mm" H 2650 4400 50  0001 C CNN
+F 3 "" H 2650 4400 50  0001 C CNN
+	1    2650 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L taobao-c:C475,0603 C?
+U 1 1 5C1E6FA2
+P 2650 5200
+F 0 "C?" H 2750 5250 50  0000 L CNN
+F 1 "C475,0603" H 2750 5200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2650 5200 50  0001 C CNN
+F 3 "~" H 2650 5200 50  0001 C CNN
+	1    2650 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 3750 2650 3750
+Wire Wire Line
+	2650 3750 2650 4300
+Wire Wire Line
+	2650 4500 2650 5100
+$Comp
+L power:GND #PWR?
+U 1 1 5C1E8335
+P 2650 5650
+F 0 "#PWR?" H 2650 5400 50  0001 C CNN
+F 1 "GND" H 2700 5450 50  0000 C CNN
+F 2 "" H 2650 5650 50  0001 C CNN
+F 3 "" H 2650 5650 50  0001 C CNN
+	1    2650 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 5300 2650 5400
+Wire Wire Line
+	5300 4650 5300 5400
+Wire Wire Line
+	5300 5400 2650 5400
+Connection ~ 2650 5400
+Wire Wire Line
+	2650 5400 2650 5650
+$Comp
+L taobao-r:R103,0603 R?
+U 1 1 5C1E989D
+P 4950 5950
+F 0 "R?" H 5050 6000 50  0000 L CNN
+F 1 "R103,0603" H 5050 5950 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4950 5950 50  0001 C CNN
+F 3 "~" H 4950 5950 50  0001 C CNN
+	1    4950 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-r:R0,0603 R?
+U 1 1 5C1E9922
+P 4700 6250
+F 0 "R?" V 4450 6250 50  0000 C CNN
+F 1 "R0,0603" V 4550 6250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4700 6250 50  0001 C CNN
+F 3 "~" H 4700 6250 50  0001 C CNN
+	1    4700 6250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4950 6050 4950 6250
+Wire Wire Line
+	4950 6250 4800 6250
+Text Label 3850 6250 0    50   ~ 0
+X32K-WIFI
+Wire Wire Line
+	3850 6250 4600 6250
+Wire Wire Line
+	4950 5550 4950 5850
+Wire Wire Line
+	5400 4650 5400 6250
+Wire Wire Line
+	5400 6250 4950 6250
+Connection ~ 4950 6250
+$Comp
+L taobao-r:R0,0603 R?
+U 1 1 5C1EC866
+P 6700 5900
+F 0 "R?" V 6450 5900 50  0000 C CNN
+F 1 "R0,0603" V 6550 5900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6700 5900 50  0001 C CNN
+F 3 "~" H 6700 5900 50  0001 C CNN
+	1    6700 5900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7450 5900 6800 5900
+Wire Wire Line
+	5900 4650 5900 5900
+Wire Wire Line
+	5900 5900 6600 5900
+$Comp
+L power:GND #PWR?
+U 1 1 5C1EE0A7
+P 6100 5000
+F 0 "#PWR?" H 6100 4750 50  0001 C CNN
+F 1 "GND" H 6150 4800 50  0000 C CNN
+F 2 "" H 6100 5000 50  0001 C CNN
+F 3 "" H 6100 5000 50  0001 C CNN
+	1    6100 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C1EE0D5
+P 6300 5000
+F 0 "#PWR?" H 6300 4750 50  0001 C CNN
+F 1 "GND" H 6350 4800 50  0000 C CNN
+F 2 "" H 6300 5000 50  0001 C CNN
+F 3 "" H 6300 5000 50  0001 C CNN
+	1    6300 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 4650 6100 5000
+Wire Wire Line
+	6300 4650 6300 5000
+$Comp
+L taobao-r:R103,0603 R?
+U 1 1 5C1EFF37
+P 7850 2500
+F 0 "R?" H 7950 2550 50  0000 L CNN
+F 1 "R103,0603" H 7950 2500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7850 2500 50  0001 C CNN
+F 3 "~" H 7850 2500 50  0001 C CNN
+	1    7850 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-r:R103,0603 R?
+U 1 1 5C1F0923
+P 8150 2500
+F 0 "R?" H 8250 2550 50  0000 L CNN
+F 1 "R103,0603" H 8250 2500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8150 2500 50  0001 C CNN
+F 3 "~" H 8150 2500 50  0001 C CNN
+	1    8150 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-r:R103,0603 R?
+U 1 1 5C1F0963
+P 8450 2500
+F 0 "R?" H 8550 2550 50  0000 L CNN
+F 1 "R103,0603" H 8550 2500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8450 2500 50  0001 C CNN
+F 3 "~" H 8450 2500 50  0001 C CNN
+	1    8450 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-r:R103,0603 R?
+U 1 1 5C1F09A5
+P 8750 2500
+F 0 "R?" H 8850 2550 50  0000 L CNN
+F 1 "R103,0603" H 8850 2500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8750 2500 50  0001 C CNN
+F 3 "~" H 8750 2500 50  0001 C CNN
+	1    8750 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 2250 8000 2350
+Wire Wire Line
+	8000 2350 7850 2350
+Wire Wire Line
+	7850 2350 7850 2400
+Wire Wire Line
+	8150 2350 8150 2400
+Wire Wire Line
+	8000 2350 8150 2350
+Connection ~ 8000 2350
+Wire Wire Line
+	8150 2350 8450 2350
+Wire Wire Line
+	8450 2350 8450 2400
+Connection ~ 8150 2350
+Wire Wire Line
+	8450 2350 8750 2350
+Wire Wire Line
+	8750 2350 8750 2400
+Connection ~ 8450 2350
+Text Label 9600 3000 2    50   ~ 0
+BT-UART-CTS
+Text Label 9600 3100 2    50   ~ 0
+BT-UART-RX
+Text Label 9600 3200 2    50   ~ 0
+BT-UART-TX
+Text Label 9600 3300 2    50   ~ 0
+BT-UART-RTS
+Wire Wire Line
+	7050 3000 8750 3000
+Wire Wire Line
+	7050 3100 8450 3100
+Wire Wire Line
+	7050 3200 8150 3200
+Wire Wire Line
+	7050 3300 7850 3300
+Wire Wire Line
+	7850 2600 7850 3300
+Connection ~ 7850 3300
+Wire Wire Line
+	7850 3300 9600 3300
+Wire Wire Line
+	8150 2600 8150 3200
+Connection ~ 8150 3200
+Wire Wire Line
+	8150 3200 9600 3200
+Wire Wire Line
+	8450 2600 8450 3100
+Connection ~ 8450 3100
+Wire Wire Line
+	8450 3100 9600 3100
+Wire Wire Line
+	8750 2600 8750 3000
+Connection ~ 8750 3000
+Wire Wire Line
+	8750 3000 9600 3000
+$Comp
+L power:GND #PWR?
+U 1 1 5C1FC648
+P 8150 3800
+F 0 "#PWR?" H 8150 3550 50  0001 C CNN
+F 1 "GND" V 8200 3650 50  0000 R CNN
+F 2 "" H 8150 3800 50  0001 C CNN
+F 3 "" H 8150 3800 50  0001 C CNN
+	1    8150 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8150 3800 7050 3800
+Text Label 8150 4000 2    50   ~ 0
+BT-RST-N
+Wire Wire Line
+	8150 4000 7050 4000
+$Comp
+L taobao-components:V_WIFI #PWR?
+U 1 1 5C1FF8B9
+P 4200 1050
+F 0 "#PWR?" H 4200 900 50  0001 C CNN
+F 1 "V_WIFI" H 4250 1200 50  0000 C CNN
+F 2 "" H 4200 1050 50  0001 C CNN
+F 3 "" H 4200 1050 50  0001 C CNN
+	1    4200 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 5C1FF9C7
+P 4600 1200
+F 0 "FB?" V 4350 1200 50  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 4450 1200 50  0000 C CNN
+F 2 "" V 4530 1200 50  0001 C CNN
+F 3 "~" H 4600 1200 50  0001 C CNN
+	1    4600 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L taobao-components:V_WIFI_IO #PWR?
+U 1 1 5C204C88
+P 1950 2150
+F 0 "#PWR?" H 1950 2000 50  0001 C CNN
+F 1 "V_WIFI_IO" H 2000 2300 50  0000 C CNN
+F 2 "" H 1950 2150 50  0001 C CNN
+F 3 "" H 1950 2150 50  0001 C CNN
+	1    1950 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-components:V_WIFI_IO #PWR?
+U 1 1 5C204CC0
+P 3950 3850
+F 0 "#PWR?" H 3950 3700 50  0001 C CNN
+F 1 "V_WIFI_IO" V 4000 3950 50  0000 L CNN
+F 2 "" H 3950 3850 50  0001 C CNN
+F 3 "" H 3950 3850 50  0001 C CNN
+	1    3950 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L taobao-components:V_WIFI_IO #PWR?
+U 1 1 5C204E0E
+P 4950 5550
+F 0 "#PWR?" H 4950 5400 50  0001 C CNN
+F 1 "V_WIFI_IO" H 5000 5700 50  0000 C CNN
+F 2 "" H 4950 5550 50  0001 C CNN
+F 3 "" H 4950 5550 50  0001 C CNN
+	1    4950 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-components:V_WIFI_IO #PWR?
+U 1 1 5C204EB1
+P 7450 5900
+F 0 "#PWR?" H 7450 5750 50  0001 C CNN
+F 1 "V_WIFI_IO" V 7450 6000 50  0000 L CNN
+F 2 "" H 7450 5900 50  0001 C CNN
+F 3 "" H 7450 5900 50  0001 C CNN
+	1    7450 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L taobao-components:V_WIFI_IO #PWR?
+U 1 1 5C204EF5
+P 8000 2250
+F 0 "#PWR?" H 8000 2100 50  0001 C CNN
+F 1 "V_WIFI_IO" H 8050 2400 50  0000 C CNN
+F 2 "" H 8000 2250 50  0001 C CNN
+F 3 "" H 8000 2250 50  0001 C CNN
+	1    8000 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-c:C106,0603 C?
+U 1 1 5C2058A0
+P 5050 1500
+F 0 "C?" H 5150 1550 50  0000 L CNN
+F 1 "C106,0603" H 5150 1500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5050 1500 50  0001 C CNN
+F 3 "~" H 5050 1500 50  0001 C CNN
+	1    5050 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-components:V_WIFI_BAT #PWR?
+U 1 1 5C20A160
+P 5050 1050
+F 0 "#PWR?" H 5050 900 50  0001 C CNN
+F 1 "V_WIFI_BAT" H 5100 1200 50  0000 C CNN
+F 2 "" H 5050 1050 50  0001 C CNN
+F 3 "" H 5050 1050 50  0001 C CNN
+	1    5050 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 1050 4200 1200
+Wire Wire Line
+	4200 1200 4500 1200
+Wire Wire Line
+	5050 1050 5050 1200
+Wire Wire Line
+	5050 1200 4700 1200
+Wire Wire Line
+	5050 1400 5050 1300
+Connection ~ 5050 1200
+$Comp
+L power:GND #PWR?
+U 1 1 5C20EFAA
+P 5050 1750
+F 0 "#PWR?" H 5050 1500 50  0001 C CNN
+F 1 "GND" H 5100 1550 50  0000 C CNN
+F 2 "" H 5050 1750 50  0001 C CNN
+F 3 "" H 5050 1750 50  0001 C CNN
+	1    5050 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 1750 5050 1600
+Wire Wire Line
+	5050 1300 5500 1300
+Wire Wire Line
+	5500 1300 5500 2150
+Connection ~ 5050 1300
+Wire Wire Line
+	5050 1300 5050 1200
+Text Label 5300 1600 3    50   ~ 0
+XTAL-OUT
+Text Label 5400 1600 3    50   ~ 0
+XTAL-IN
+Wire Wire Line
+	5300 1600 5300 2150
+Wire Wire Line
+	5400 1600 5400 2150
+Text Label 5700 1400 3    50   ~ 0
+BT-WAKE-AP
+Text Label 5800 1400 3    50   ~ 0
+AP-WAKE-BT
+Wire Wire Line
+	5700 1400 5700 2150
+Wire Wire Line
+	5800 1400 5800 2150
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5C21A1FF
+P 6000 1700
+F 0 "TP?" H 6100 1850 50  0000 L CNN
+F 1 "TestPoint" H 6100 1750 50  0000 L CNN
+F 2 "" H 6200 1700 50  0001 C CNN
+F 3 "~" H 6200 1700 50  0001 C CNN
+	1    6000 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 1700 6000 2150
+$Comp
+L power:GND #PWR?
+U 1 1 5C21C262
+P 6100 1700
+F 0 "#PWR?" H 6100 1450 50  0001 C CNN
+F 1 "GND" H 6100 1500 50  0000 C CNN
+F 2 "" H 6100 1700 50  0001 C CNN
+F 3 "" H 6100 1700 50  0001 C CNN
+	1    6100 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C21C2C8
+P 6300 1700
+F 0 "#PWR?" H 6300 1450 50  0001 C CNN
+F 1 "GND" H 6300 1500 50  0000 C CNN
+F 2 "" H 6300 1700 50  0001 C CNN
+F 3 "" H 6300 1700 50  0001 C CNN
+	1    6300 1700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6100 1700 6100 2150
+Wire Wire Line
+	6300 1700 6300 2150
+$Comp
+L taobao-c:C10pf,0603 C?
+U 1 1 5C220703
+P 6650 1350
+F 0 "C?" V 6400 1350 50  0000 C CNN
+F 1 "C10pf,0603" V 6500 1350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6650 1350 50  0001 C CNN
+F 3 "~" H 6650 1350 50  0001 C CNN
+	1    6650 1350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6550 1350 6200 1350
+Wire Wire Line
+	6200 1350 6200 2150
+$Comp
+L Device:Antenna_Shield AE?
+U 1 1 5C222A69
+P 7300 1100
+F 0 "AE?" H 7450 1150 50  0000 L CNN
+F 1 "Antenna_Shield" H 7450 1050 50  0000 L CNN
+F 2 "" H 7300 1200 50  0001 C CNN
+F 3 "~" H 7300 1200 50  0001 C CNN
+	1    7300 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 1300 7300 1350
+Wire Wire Line
+	7300 1350 6750 1350
+$Comp
+L power:GND #PWR?
+U 1 1 5C225054
+P 7400 1450
+F 0 "#PWR?" H 7400 1200 50  0001 C CNN
+F 1 "GND" H 7450 1250 50  0000 C CNN
+F 2 "" H 7400 1450 50  0001 C CNN
+F 3 "" H 7400 1450 50  0001 C CNN
+	1    7400 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 1450 7400 1300
+$EndSCHEMATC
