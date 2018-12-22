@@ -4395,4 +4395,52 @@ Wire Wire Line
 	7700 4200 8750 4200
 Wire Wire Line
 	7700 4300 8750 4300
+Text Label 9350 5750 1    50   ~ 0
+RXCTL-AD2
+Text Label 9450 5750 1    50   ~ 0
+RXD0-SELRGV
+Text Label 9550 5750 1    50   ~ 0
+EPHY-VDD25
+Text Label 9650 5750 1    50   ~ 0
+RXD1-TXDLY
+Text Label 9750 5750 1    50   ~ 0
+RXD2-AN0
+Text Label 9850 5750 1    50   ~ 0
+RXD3-AN1
+Text Label 9950 5750 1    50   ~ 0
+RXCLK
+Text Label 10050 5750 1    50   ~ 0
+INTB
+Text Label 10150 5750 1    50   ~ 0
+EPHY-VDD25
+Text Label 10250 5750 1    50   ~ 0
+TXCLK
+Text Label 10350 5750 1    50   ~ 0
+TXD0
+Text Label 10450 5750 1    50   ~ 0
+TXD1
+Wire Wire Line
+	9350 5000 9350 5750
+Wire Wire Line
+	9450 5000 9450 5750
+Wire Wire Line
+	9550 5000 9550 5750
+Wire Wire Line
+	9650 5000 9650 5750
+Wire Wire Line
+	9750 5000 9750 5750
+Wire Wire Line
+	9850 5000 9850 5750
+Wire Wire Line
+	9950 5000 9950 5750
+Wire Wire Line
+	10050 5000 10050 5750
+Wire Wire Line
+	10150 5000 10150 5750
+Wire Wire Line
+	10250 5000 10250 5750
+Wire Wire Line
+	10350 5000 10350 5750
+Wire Wire Line
+	10450 5000 10450 5750
 $EndSCHEMATC
