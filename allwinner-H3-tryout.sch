@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title ""
 Date ""
 Rev ""
@@ -61,5 +61,11 @@ S 4400 4750 1050 900
 U 5C21AE0A
 F0 "RTC" 50
 F1 "RTC.sch" 50
+$EndSheet
+$Sheet
+S 8150 3550 1050 900 
+U 5C259FA6
+F0 "CSI" 50
+F1 "CSI.sch" 50
 $EndSheet
 $EndSCHEMATC
