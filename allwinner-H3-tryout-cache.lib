@@ -26,6 +26,25 @@ X ~ 3 300 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Connector_Generic_Conn_01x02
+#
+DEF Connector_Generic_Conn_01x02 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Generic_Conn_01x02" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Connector_Generic_Conn_01x03
 #
 DEF Connector_Generic_Conn_01x03 J 0 40 Y N 1 F N
@@ -499,6 +518,22 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# taobao-components_ACM2012
+#
+DEF taobao-components_ACM2012 U 0 40 Y Y 1 F N
+F0 "U" 0 -150 50 H V C CNN
+F1 "taobao-components_ACM2012" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -250 150 250 -150 0 1 0 f
+X 1 1 -450 50 200 R 50 50 1 1 W
+X 2 2 -450 -50 200 R 50 50 1 1 W
+X 3 3 450 -50 200 L 50 50 1 1 W
+X 4 4 450 50 200 L 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
 # taobao-components_AO3423
 #
 DEF taobao-components_AO3423 Q 0 0 Y N 1 F N
@@ -709,6 +744,30 @@ X CSI-DVDD 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
+# taobao-components_DUAL_USB-A-VERTICAL
+#
+DEF taobao-components_DUAL_USB-A-VERTICAL U 0 40 Y Y 1 F N
+F0 "U" 0 -650 50 H V C CNN
+F1 "taobao-components_DUAL_USB-A-VERTICAL" 0 -750 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -400 500 350 -500 0 1 0 f
+X SHIELD1 1 550 -400 200 L 50 50 1 1 W
+X SHIELD2 2 550 -300 200 L 50 50 1 1 W
+X SHIELD3 3 550 -200 200 L 50 50 1 1 W
+X SHIELD4 4 550 -100 200 L 50 50 1 1 W
+X VBUS1 A1 -600 400 200 R 50 50 1 1 W
+X D1- A2 -600 300 200 R 50 50 1 1 W
+X D1+ A3 -600 200 200 R 50 50 1 1 W
+X GND1 A4 -600 100 200 R 50 50 1 1 W
+X VBUS2 B1 -600 -100 200 R 50 50 1 1 W
+X D2- B2 -600 -200 200 R 50 50 1 1 W
+X D2+ B3 -600 -300 200 R 50 50 1 1 W
+X GND2 B4 -600 -400 200 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
 # taobao-components_DV
 #
 DEF taobao-components_DV #PWR 0 0 Y Y 1 F P
@@ -822,6 +881,20 @@ X D0N 9 -1000 50 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# taobao-components_HOST-VBUS
+#
+DEF taobao-components_HOST-VBUS #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "taobao-components_HOST-VBUS" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -50 50 50 50 N
+P 2 0 1 0 0 0 0 50 N
+X HOST-VBUS 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # taobao-components_IR_MODULE
 #
 DEF taobao-components_IR_MODULE J 0 40 Y N 1 F N
@@ -929,6 +1002,57 @@ X AVDD10 9 -1150 -250 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# taobao-components_R_NC,0603
+#
+DEF taobao-components_R_NC,0603 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "taobao-components_R_NC,0603" 30 -40 50 H V L CNN
+F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Resistor_SMD:R_0603*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# taobao-components_R_NC,0805
+#
+DEF taobao-components_R_NC,0805 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "taobao-components_R_NC,0805" 30 -40 50 H V L CNN
+F2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Resistor_SMD:R_0805*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# taobao-components_SY6280AAC
+#
+DEF taobao-components_SY6280AAC U 0 40 Y Y 1 F N
+F0 "U" 0 -300 50 H V C CNN
+F1 "taobao-components_SY6280AAC" 0 -400 50 H V C CNN
+F2 "" 50 0 50 H I C CNN
+F3 "" 50 0 50 H I C CNN
+DRAW
+S -300 250 350 -250 0 1 0 f
+X VOUT1 1 -500 150 200 R 50 50 1 1 W
+X GND 2 -500 0 200 R 50 50 1 1 W
+X FALG 3 -500 -150 200 R 50 50 1 1 W
+X EN 4 550 -150 200 L 50 50 1 1 W
+X IN 5 550 150 200 L 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
 # taobao-components_SY8008B
 #
 DEF taobao-components_SY8008B U 0 40 Y Y 1 F N
@@ -961,6 +1085,20 @@ X FB 3 450 -150 200 L 50 50 1 1 I
 X EN 4 -450 -150 200 R 50 50 1 1 I
 X IN 5 -450 150 200 R 50 50 1 1 I
 X LX 6 450 150 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# taobao-components_USBVBUS
+#
+DEF taobao-components_USBVBUS #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "taobao-components_USBVBUS" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -50 50 50 50 N
+P 2 0 1 0 0 0 0 50 N
+X USBVBUS 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
@@ -1202,6 +1340,20 @@ X Vdram 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
+# taobao-components_Vio
+#
+DEF taobao-components_Vio #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "taobao-components_Vio" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -50 50 50 50 N
+P 2 0 1 0 0 0 0 50 N
+X Vio 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # taobao-components_Vrtc
 #
 DEF taobao-components_Vrtc #PWR 0 0 Y Y 1 F P
@@ -1279,6 +1431,46 @@ X GND3 6 650 750 200 L 50 50 1 1 I
 X IO-GCLK 7 -650 650 200 R 50 50 1 1 I
 X TXD0 8 650 650 200 L 50 50 1 1 I
 X GND1 9 -650 550 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# taobao-cp_CP100uf,10V
+#
+DEF taobao-cp_CP100uf,10V C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "taobao-cp_CP100uf,10V" 10 -80 50 H V L CNN
+F2 "Capacitor_SMD:CP_Elec_6.3x5.3" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ CP_Elec**6.3x5.3*
+$ENDFPLIST
+DRAW
+S -60 -12 60 -27 0 1 0 F
+S -60 27 60 12 0 1 0 N
+P 2 0 1 0 -50 60 -30 60 N
+P 2 0 1 0 -40 50 -40 70 N
+X ~ 1 0 100 73 D 50 50 1 1 P
+X ~ 2 0 -100 73 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# taobao-cp_CP22uf,16V
+#
+DEF taobao-cp_CP22uf,16V C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "taobao-cp_CP22uf,16V" 10 -80 50 H V L CNN
+F2 "Capacitor_SMD:CP_Elec_4x5.3" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ CP_Elec**4x5.3*
+$ENDFPLIST
+DRAW
+S -60 -12 60 -27 0 1 0 F
+S -60 27 60 12 0 1 0 N
+P 2 0 1 0 -50 60 -30 60 N
+P 2 0 1 0 -40 50 -40 70 N
+X ~ 1 0 100 73 D 50 50 1 1 P
+X ~ 2 0 -100 73 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -1407,6 +1599,23 @@ ENDDEF
 DEF taobao-r_R101,0603 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
 F1 "taobao-r_R101,0603" 30 -40 50 H V L CNN
+F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Resistor_SMD:R_0603*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# taobao-r_R102,0603
+#
+DEF taobao-r_R102,0603 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "taobao-r_R102,0603" 30 -40 50 H V L CNN
 F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
