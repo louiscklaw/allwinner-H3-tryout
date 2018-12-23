@@ -2524,4 +2524,111 @@ Text GLabel 7100 5750 0    50   Input ~ 0
 PA10-ENT10
 Text GLabel 7100 5850 0    50   Input ~ 0
 SPDIF-OUT
+$Comp
+L taobao-components:Vcc-5V #PWR?
+U 1 1 5C22F514
+P 9500 3750
+F 0 "#PWR?" H 9500 3600 50  0001 C CNN
+F 1 "Vcc-5V" H 9505 3873 50  0000 C CNN
+F 2 "" H 9500 3750 50  0001 C CNN
+F 3 "" H 9500 3750 50  0001 C CNN
+	1    9500 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 3750 9500 4050
+Wire Wire Line
+	9500 4050 9250 4050
+Wire Wire Line
+	9500 4050 9500 4150
+Wire Wire Line
+	9500 4150 9250 4150
+Connection ~ 9500 4050
+$Comp
+L power:GND #PWR?
+U 1 1 5C230B63
+P 9400 6050
+F 0 "#PWR?" H 9400 5800 50  0001 C CNN
+F 1 "GND" H 9405 5877 50  0000 C CNN
+F 2 "" H 9400 6050 50  0001 C CNN
+F 3 "" H 9400 6050 50  0001 C CNN
+	1    9400 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 4250 9400 4250
+Wire Wire Line
+	9400 4250 9400 4650
+Wire Wire Line
+	9250 4650 9400 4650
+Connection ~ 9400 4650
+Wire Wire Line
+	9400 4650 9400 4950
+Wire Wire Line
+	9250 4950 9400 4950
+Connection ~ 9400 4950
+Wire Wire Line
+	9400 4950 9400 5450
+Wire Wire Line
+	9250 5450 9400 5450
+Connection ~ 9400 5450
+Wire Wire Line
+	9400 5450 9400 5650
+Wire Wire Line
+	9250 5650 9400 5650
+Connection ~ 9400 5650
+Wire Wire Line
+	9400 5650 9400 6050
+Wire Wire Line
+	9750 4350 9250 4350
+Wire Wire Line
+	9750 4450 9250 4450
+Wire Wire Line
+	9750 4550 9250 4550
+Wire Wire Line
+	9750 4750 9250 4750
+Wire Wire Line
+	9750 4850 9250 4850
+Wire Wire Line
+	9750 5050 9250 5050
+Wire Wire Line
+	9750 5150 9250 5150
+Wire Wire Line
+	9750 5250 9250 5250
+Wire Wire Line
+	9750 5350 9250 5350
+Wire Wire Line
+	9750 5550 9250 5550
+Wire Wire Line
+	9750 5750 9250 5750
+Wire Wire Line
+	9750 5850 9250 5850
+Wire Wire Line
+	9750 5950 9250 5950
+Text GLabel 9750 4350 2    50   Input ~ 0
+UART3-TX
+Text GLabel 9750 4450 2    50   Input ~ 0
+UART3-RX
+Text GLabel 9750 4550 2    50   Input ~ 0
+UART3-CTS
+Text GLabel 9750 4750 2    50   Input ~ 0
+UART3-RTS
+Text GLabel 9750 4850 2    50   Input ~ 0
+PC4
+Text GLabel 9750 5050 2    50   Input ~ 0
+UART2-RTS
+Text GLabel 9750 5150 2    50   Input ~ 0
+PC3
+Text GLabel 9750 5250 2    50   Input ~ 0
+PC7
+Text GLabel 9750 5350 2    50   Input ~ 0
+TWI-SCK
+Text GLabel 9750 5550 2    50   Input ~ 0
+PL2-ENT2
+Text GLabel 9750 5750 2    50   Input ~ 0
+PL4-ENT4
+Text GLabel 9750 5850 2    50   Input ~ 0
+PA21
+Text GLabel 9750 5950 2    50   Input ~ 0
+PA20
 $EndSCHEMATC
