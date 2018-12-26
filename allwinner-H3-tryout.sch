@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 12
+Sheet 1 14
 Title ""
 Date ""
 Rev ""
@@ -81,9 +81,15 @@ F0 "USB_POWER" 50
 F1 "USB_POWER.sch" 50
 $EndSheet
 $Sheet
-S 5250 1100 1050 900 
+S 5650 1100 1050 900 
 U 5C22DA43
 F0 "eMMC" 50
 F1 "eMMC.sch" 50
+$EndSheet
+$Sheet
+S 4400 1100 1050 900 
+U 5C23FAEA
+F0 "dram" 50
+F1 "dram.sch" 50
 $EndSheet
 $EndSCHEMATC

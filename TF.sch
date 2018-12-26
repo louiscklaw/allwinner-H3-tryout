@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 12
+Sheet 11 14
 Title ""
 Date ""
 Rev ""
@@ -129,7 +129,7 @@ SD0-D2
 Wire Wire Line
 	5300 4000 7400 4000
 Wire Wire Line
-	5300 4100 7400 4100
+	5300 4100 6350 4100
 Wire Wire Line
 	5300 4300 6150 4300
 Wire Wire Line
@@ -243,4 +243,50 @@ Wire Wire Line
 	3600 4600 4750 4600
 Wire Wire Line
 	3600 4700 4750 4700
+Wire Wire Line
+	6350 4100 6350 3400
+Connection ~ 6350 4100
+Wire Wire Line
+	6350 4100 7400 4100
+$Comp
+L taobao-components:Vio #PWR?
+U 1 1 5C272DF7
+P 3600 2900
+F 0 "#PWR?" H 3600 2750 50  0001 C CNN
+F 1 "Vio" H 3650 3050 50  0000 C CNN
+F 2 "" H 3600 2900 50  0001 C CNN
+F 3 "" H 3600 2900 50  0001 C CNN
+	1    3600 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-components:Vcc-TF #PWR?
+U 1 1 5C272F32
+P 4600 2900
+F 0 "#PWR?" H 4600 2750 50  0001 C CNN
+F 1 "Vcc-TF" H 4650 3050 50  0000 C CNN
+F 2 "" H 4600 2900 50  0001 C CNN
+F 3 "" H 4600 2900 50  0001 C CNN
+	1    4600 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-components:R_NC,0603 R?
+U 1 1 5C273020
+P 4050 3050
+F 0 "R?" V 3800 3050 50  0000 C CNN
+F 1 "R_NC,0603" V 3900 3050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4050 3050 50  0001 C CNN
+F 3 "~" H 4050 3050 50  0001 C CNN
+	1    4050 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3950 3050 3600 3050
+Wire Wire Line
+	3600 3050 3600 2900
+Wire Wire Line
+	4150 3050 4600 3050
+Wire Wire Line
+	4600 3050 4600 2900
 $EndSCHEMATC
