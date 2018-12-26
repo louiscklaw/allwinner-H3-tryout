@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 15
+Sheet 1 18
 Title ""
 Date ""
 Rev ""
@@ -23,7 +23,7 @@ $EndSheet
 $Sheet
 S 9400 3550 1050 900 
 U 5C1E10A8
-F0 "SDIO_WIFI_BT" 50
+F0 "SDIO-WIFI_BT" 50
 F1 "SDIO_WIFI_BT.sch" 50
 $EndSheet
 $Sheet
@@ -141,5 +141,23 @@ S 600  650  850  400
 U 5C5C55F2
 F0 "cpu-power" 50
 F1 "cpu-power.sch" 50
+$EndSheet
+$Sheet
+S 600  1250 850  400 
+U 5C660882
+F0 "cpu-sdc1" 50
+F1 "cpu-sdc1.sch" 50
+$EndSheet
+$Sheet
+S 600  1850 850  400 
+U 5C66BA53
+F0 "cpu-nand" 50
+F1 "cpu-nand.sch" 50
+$EndSheet
+$Sheet
+S 600  2450 850  400 
+U 5C66D9B1
+F0 "cpus" 50
+F1 "cpus.sch" 50
 $EndSheet
 $EndSCHEMATC

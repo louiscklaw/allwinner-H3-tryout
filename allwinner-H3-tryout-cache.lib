@@ -1369,6 +1369,34 @@ X V_IO 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
+# taobao-components_VCC-PG
+#
+DEF taobao-components_VCC-PG #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "taobao-components_VCC-PG" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -50 50 50 50 N
+P 2 0 1 0 0 0 0 50 N
+X VCC-PG 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# taobao-components_VCC-RTC
+#
+DEF taobao-components_VCC-RTC #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "taobao-components_VCC-RTC" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -50 50 50 50 N
+P 2 0 1 0 0 0 0 50 N
+X VCC-RTC 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # taobao-components_VCC-UART
 #
 DEF taobao-components_VCC-UART #PWR 0 0 Y Y 1 F P
