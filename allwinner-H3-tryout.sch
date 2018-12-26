@@ -92,4 +92,48 @@ U 5C23FAEA
 F0 "dram" 50
 F1 "dram.sch" 50
 $EndSheet
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5C5BD210
+P 3950 7000
+F 0 "H?" H 4050 7050 50  0000 L CNN
+F 1 "MountingHole" H 4050 7000 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 3950 7000 50  0001 C CNN
+F 3 "~" H 3950 7000 50  0001 C CNN
+	1    3950 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5C5BD268
+P 3950 7200
+F 0 "H?" H 4050 7250 50  0000 L CNN
+F 1 "MountingHole" H 4050 7200 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 3950 7200 50  0001 C CNN
+F 3 "~" H 3950 7200 50  0001 C CNN
+	1    3950 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5C5BD298
+P 3950 7400
+F 0 "H?" H 4050 7450 50  0000 L CNN
+F 1 "MountingHole" H 4050 7400 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 3950 7400 50  0001 C CNN
+F 3 "~" H 3950 7400 50  0001 C CNN
+	1    3950 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5C5BD2C2
+P 3950 7600
+F 0 "H?" H 4050 7650 50  0000 L CNN
+F 1 "MountingHole" H 4050 7600 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2MountingHole:MountingHole_2.2mm_M2_DIN965.2mm_M2_DIN965" H 3950 7600 50  0001 C CNN
+F 3 "~" H 3950 7600 50  0001 C CNN
+	1    3950 7600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
