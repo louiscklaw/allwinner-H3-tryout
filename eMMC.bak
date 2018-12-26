@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 13 14
+Sheet 13 15
 Title ""
 Date ""
 Rev ""
@@ -380,4 +380,45 @@ Text Label 13700 5850 2    50   ~ 0
 eMMC-CMD
 Wire Wire Line
 	13700 5850 12750 5850
+$Comp
+L taobao-components:V-flash #PWR?
+U 1 1 5C5BE76C
+P 5650 2100
+F 0 "#PWR?" H 5650 1950 50  0001 C CNN
+F 1 "V-flash" H 5700 2250 50  0000 C CNN
+F 2 "" H 5650 2100 50  0001 C CNN
+F 3 "" H 5650 2100 50  0001 C CNN
+	1    5650 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-components:Vcc-io #PWR?
+U 1 1 5C5BE824
+P 4650 2100
+F 0 "#PWR?" H 4650 1950 50  0001 C CNN
+F 1 "Vcc-io" H 4700 2250 50  0000 C CNN
+F 2 "" H 4650 2100 50  0001 C CNN
+F 3 "" H 4650 2100 50  0001 C CNN
+	1    4650 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-r:R0,0603 R?
+U 1 1 5C5C07D8
+P 5100 2200
+F 0 "R?" V 4850 2200 50  0000 C CNN
+F 1 "R0,0603" V 4950 2200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5100 2200 50  0001 C CNN
+F 3 "~" H 5100 2200 50  0001 C CNN
+	1    5100 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 2200 4650 2200
+Wire Wire Line
+	4650 2200 4650 2100
+Wire Wire Line
+	5200 2200 5650 2200
+Wire Wire Line
+	5650 2200 5650 2100
 $EndSCHEMATC

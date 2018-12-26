@@ -1,0 +1,70 @@
+EESchema Schematic File Version 4
+LIBS:allwinner-H3-tryout-cache
+EELAYER 26 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 15 15
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L taobao-components:allwinner-H3 U?
+U 14 1 5C614B67
+P 8150 6100
+F 0 "U?" H 8150 7350 50  0000 C CNN
+F 1 "allwinner-H3" H 8150 7250 50  0000 C CNN
+F 2 "" H 9450 6300 50  0001 C CNN
+F 3 "" H 9450 6300 50  0001 C CNN
+	14   8150 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-components:Vcc-io #PWR?
+U 1 1 5C647B7D
+P 9400 6350
+F 0 "#PWR?" H 9400 6200 50  0001 C CNN
+F 1 "Vcc-io" H 9450 6500 50  0000 C CNN
+F 2 "" H 9400 6350 50  0001 C CNN
+F 3 "" H 9400 6350 50  0001 C CNN
+	1    9400 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 6400 9000 6400
+Wire Wire Line
+	9200 6500 9000 6500
+Wire Wire Line
+	9200 6600 9000 6600
+Wire Wire Line
+	9200 6700 9000 6700
+Wire Wire Line
+	9200 6800 9000 6800
+Wire Wire Line
+	9200 6900 9000 6900
+Wire Wire Line
+	9200 6400 9200 6500
+Connection ~ 9200 6500
+Wire Wire Line
+	9200 6500 9200 6600
+Connection ~ 9200 6600
+Wire Wire Line
+	9200 6600 9200 6700
+Connection ~ 9200 6700
+Wire Wire Line
+	9200 6700 9200 6800
+Connection ~ 9200 6800
+Wire Wire Line
+	9200 6800 9200 6900
+Wire Wire Line
+	9400 6350 9400 6400
+Wire Wire Line
+	9400 6400 9200 6400
+Connection ~ 9200 6400
+$EndSCHEMATC

@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 14
+Sheet 1 15
 Title ""
 Date ""
 Rev ""
@@ -136,4 +136,10 @@ F 3 "~" H 3950 7600 50  0001 C CNN
 	1    3950 7600
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 600  650  850  400 
+U 5C5C55F2
+F0 "cpu-power" 50
+F1 "cpu-power.sch" 50
+$EndSheet
 $EndSCHEMATC
