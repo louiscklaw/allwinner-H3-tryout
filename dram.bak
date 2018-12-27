@@ -8658,12 +8658,423 @@ $EndBitmap
 $Comp
 L taobao-components:allwinner-H3 U?
 U 15 1 5C2EE09D
-P 4050 4200
-F 0 "U?" H 4000 6650 50  0000 C CNN
-F 1 "allwinner-H3" H 4000 6550 50  0000 C CNN
-F 2 "" H 3850 3300 50  0001 C CNN
-F 3 "" H 3850 3300 50  0001 C CNN
-	15   4050 4200
+P 3200 4100
+F 0 "U?" H 3150 6550 50  0000 C CNN
+F 1 "allwinner-H3" H 3150 6450 50  0000 C CNN
+F 2 "" H 3000 3200 50  0001 C CNN
+F 3 "" H 3000 3200 50  0001 C CNN
+	15   3200 4100
 	1    0    0    -1  
 $EndComp
+Text Label 4850 2000 2    50   ~ 0
+SA0
+Text Label 4850 2100 2    50   ~ 0
+SA1
+Text Label 4850 2200 2    50   ~ 0
+SA2
+Text Label 4850 2300 2    50   ~ 0
+SA3
+Text Label 4850 2400 2    50   ~ 0
+SA4
+Text Label 4850 2500 2    50   ~ 0
+SA5
+Text Label 4850 2600 2    50   ~ 0
+SA6
+Text Label 4850 2700 2    50   ~ 0
+SA7
+Text Label 4850 2800 2    50   ~ 0
+SA8
+Text Label 4850 2900 2    50   ~ 0
+SA9
+Text Label 4850 3000 2    50   ~ 0
+SA10
+Text Label 4850 3100 2    50   ~ 0
+SA11
+Text Label 4850 3200 2    50   ~ 0
+SA12
+Text Label 4850 3300 2    50   ~ 0
+SA13
+Text Label 4850 3400 2    50   ~ 0
+SA14
+Text Label 4850 3500 2    50   ~ 0
+SA15
+Wire Wire Line
+	4850 2000 3950 2000
+Wire Wire Line
+	4850 2100 3950 2100
+Wire Wire Line
+	4850 2200 3950 2200
+Wire Wire Line
+	4850 2300 3950 2300
+Wire Wire Line
+	4850 2400 3950 2400
+Wire Wire Line
+	4850 2500 3950 2500
+Wire Wire Line
+	4850 2600 3950 2600
+Wire Wire Line
+	4850 2700 3950 2700
+Wire Wire Line
+	4850 2800 3950 2800
+Wire Wire Line
+	4850 2900 3950 2900
+Wire Wire Line
+	4850 3000 3950 3000
+Wire Wire Line
+	4850 3100 3950 3100
+Wire Wire Line
+	4850 3200 3950 3200
+Wire Wire Line
+	4850 3300 3950 3300
+Wire Wire Line
+	4850 3400 3950 3400
+Wire Wire Line
+	4850 3500 3950 3500
+Text Label 6850 3650 0    50   ~ 0
+SBA0
+Text Label 6850 3750 0    50   ~ 0
+SBA1
+Text Label 6850 3850 0    50   ~ 0
+SBA2
+Text Label 4850 3700 2    50   ~ 0
+SBA0
+Wire Wire Line
+	4850 3700 3950 3700
+Wire Wire Line
+	4850 3800 3950 3800
+Wire Wire Line
+	4850 3900 3950 3900
+Text Label 4850 3800 2    50   ~ 0
+SBA1
+Text Label 4850 3900 2    50   ~ 0
+SBA2
+Text Label 4850 3700 2    50   ~ 0
+SBA0
+Text Label 4850 3800 2    50   ~ 0
+SBA1
+Text Label 4850 3900 2    50   ~ 0
+SBA2
+Wire Wire Line
+	4850 4300 3950 4300
+Wire Wire Line
+	4850 4100 3950 4100
+Wire Wire Line
+	4850 4200 3950 4200
+Text Label 4850 4300 2    50   ~ 0
+SWE
+Text Label 4850 4100 2    50   ~ 0
+SRAS
+Text Label 4850 4200 2    50   ~ 0
+SCAS
+Text Label 4850 4400 2    50   ~ 0
+SRST
+Wire Wire Line
+	4850 4400 3950 4400
+Text Label 4850 4600 2    50   ~ 0
+SCKE0
+Text Label 4850 4700 2    50   ~ 0
+SCKE1
+Wire Wire Line
+	4850 4600 3950 4600
+Wire Wire Line
+	4850 4700 3950 4700
+Text Label 4850 4900 2    50   ~ 0
+SCS0
+Text Label 4850 5000 2    50   ~ 0
+SCS1
+Text Label 4850 5200 2    50   ~ 0
+SODT0
+Text Label 4850 5300 2    50   ~ 0
+SODT1
+Text Label 4850 5500 2    50   ~ 0
+SCKP
+Text Label 4850 5600 2    50   ~ 0
+SCKN
+Text Label 4850 5800 2    50   ~ 0
+SVREF
+Wire Wire Line
+	3950 4900 4850 4900
+Wire Wire Line
+	3950 5000 4850 5000
+Wire Wire Line
+	4850 5200 3950 5200
+Wire Wire Line
+	4850 5300 3950 5300
+Wire Wire Line
+	3950 5500 4850 5500
+Wire Wire Line
+	3950 5600 4850 5600
+Wire Wire Line
+	3950 5800 4850 5800
+$Comp
+L taobao-components:Vdram #PWR?
+U 1 1 5C5797BD
+P 4650 6100
+AR Path="/5C23FAEA/5C5797BD" Ref="#PWR?"  Part="1" 
+AR Path="/5C5C55F2/5C5797BD" Ref="#PWR?"  Part="1" 
+AR Path="/5C273FE9/5C5797BD" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4650 5950 50  0001 C CNN
+F 1 "Vdram" H 4700 6250 50  0000 C CNN
+F 2 "" H 4650 6100 50  0001 C CNN
+F 3 "" H 4650 6100 50  0001 C CNN
+	1    4650 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 6000 3950 6000
+Wire Wire Line
+	4400 6100 3950 6100
+Wire Wire Line
+	4400 6200 3950 6200
+Wire Wire Line
+	4400 6300 3950 6300
+Wire Wire Line
+	4400 6400 3950 6400
+Wire Wire Line
+	4400 6500 3950 6500
+Wire Wire Line
+	4400 6600 3950 6600
+Wire Wire Line
+	4400 6700 3950 6700
+Wire Wire Line
+	4400 6800 3950 6800
+Wire Wire Line
+	4400 6900 3950 6900
+Wire Wire Line
+	4400 6000 4400 6100
+Connection ~ 4400 6100
+Wire Wire Line
+	4400 6100 4400 6200
+Connection ~ 4400 6200
+Wire Wire Line
+	4400 6200 4400 6250
+Connection ~ 4400 6300
+Wire Wire Line
+	4400 6300 4400 6400
+Connection ~ 4400 6400
+Wire Wire Line
+	4400 6400 4400 6500
+Connection ~ 4400 6500
+Wire Wire Line
+	4400 6500 4400 6600
+Connection ~ 4400 6600
+Wire Wire Line
+	4400 6600 4400 6700
+Connection ~ 4400 6700
+Wire Wire Line
+	4400 6700 4400 6800
+Connection ~ 4400 6800
+Wire Wire Line
+	4400 6800 4400 6900
+Wire Wire Line
+	4650 6100 4650 6250
+Wire Wire Line
+	4650 6250 4400 6250
+Connection ~ 4400 6250
+Wire Wire Line
+	4400 6250 4400 6300
+$Comp
+L taobao-r:R241,0603 R?
+U 1 1 5C5FA017
+P 2100 6850
+F 0 "R?" H 2200 6900 50  0000 L CNN
+F 1 "R241,0603" H 2200 6850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2100 6850 50  0001 C CNN
+F 3 "~" H 2100 6850 50  0001 C CNN
+	1    2100 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 6650 2100 6650
+Wire Wire Line
+	2100 6650 2100 6750
+$Comp
+L power:GND #PWR?
+U 1 1 5C627F97
+P 2100 7100
+F 0 "#PWR?" H 2100 6850 50  0001 C CNN
+F 1 "GND" H 2150 6900 50  0000 C CNN
+F 2 "" H 2100 7100 50  0001 C CNN
+F 3 "" H 2100 7100 50  0001 C CNN
+	1    2100 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 7100 2100 6950
+Text Label 1800 6150 0    50   ~ 0
+SDQM0
+Text Label 1800 6250 0    50   ~ 0
+SDQM1
+Text Label 1800 6350 0    50   ~ 0
+SDQM2
+Text Label 1800 6450 0    50   ~ 0
+SDQM3
+Wire Wire Line
+	1800 6150 2350 6150
+Wire Wire Line
+	1800 6250 2350 6250
+Wire Wire Line
+	1800 6350 2350 6350
+Wire Wire Line
+	1800 6450 2350 6450
+Text Label 1850 5250 0    50   ~ 0
+SDQS0P
+Text Label 1850 5350 0    50   ~ 0
+SDQS0N
+Text Label 1850 5450 0    50   ~ 0
+SDQS1P
+Text Label 1850 5550 0    50   ~ 0
+SDQS1N
+Wire Wire Line
+	1850 5250 2350 5250
+Wire Wire Line
+	1850 5350 2350 5350
+Wire Wire Line
+	1850 5450 2350 5450
+Wire Wire Line
+	1850 5550 2350 5550
+Text Label 1850 5650 0    50   ~ 0
+SDQS2P
+Text Label 1850 5750 0    50   ~ 0
+SDQS2N
+Text Label 1850 5850 0    50   ~ 0
+SDQS3P
+Text Label 1850 5950 0    50   ~ 0
+SDQS3N
+Wire Wire Line
+	1850 5650 2350 5650
+Wire Wire Line
+	1850 5750 2350 5750
+Wire Wire Line
+	1850 5850 2350 5850
+Wire Wire Line
+	1850 5950 2350 5950
+Text Label 1850 1950 0    50   ~ 0
+SDQ0
+Text Label 1850 2050 0    50   ~ 0
+SDQ1
+Text Label 1850 2150 0    50   ~ 0
+SDQ2
+Text Label 1850 2250 0    50   ~ 0
+SDQ3
+Text Label 1850 2350 0    50   ~ 0
+SDQ4
+Text Label 1850 2450 0    50   ~ 0
+SDQ5
+Text Label 1850 2550 0    50   ~ 0
+SDQ6
+Text Label 1850 2650 0    50   ~ 0
+SDQ7
+Text Label 1850 2750 0    50   ~ 0
+SDQ8
+Text Label 1850 2850 0    50   ~ 0
+SDQ9
+Text Label 1850 2950 0    50   ~ 0
+SDQ10
+Text Label 1850 3050 0    50   ~ 0
+SDQ11
+Text Label 1850 3150 0    50   ~ 0
+SDQ12
+Text Label 1850 3250 0    50   ~ 0
+SDQ13
+Text Label 1850 3350 0    50   ~ 0
+SDQ14
+Text Label 1850 3450 0    50   ~ 0
+SDQ15
+Text Label 1850 3550 0    50   ~ 0
+SDQ16
+Text Label 1850 3650 0    50   ~ 0
+SDQ17
+Text Label 1850 3750 0    50   ~ 0
+SDQ18
+Text Label 1850 3850 0    50   ~ 0
+SDQ19
+Text Label 1850 3950 0    50   ~ 0
+SDQ20
+Text Label 1850 4050 0    50   ~ 0
+SDQ21
+Text Label 1850 4150 0    50   ~ 0
+SDQ22
+Text Label 1850 4250 0    50   ~ 0
+SDQ23
+Text Label 1850 4350 0    50   ~ 0
+SDQ24
+Text Label 1850 4450 0    50   ~ 0
+SDQ25
+Text Label 1850 4550 0    50   ~ 0
+SDQ26
+Text Label 1850 4650 0    50   ~ 0
+SDQ27
+Text Label 1850 4750 0    50   ~ 0
+SDQ28
+Text Label 1850 4850 0    50   ~ 0
+SDQ29
+Text Label 1850 4950 0    50   ~ 0
+SDQ30
+Text Label 1850 5050 0    50   ~ 0
+SDQ31
+Wire Wire Line
+	1850 1950 2350 1950
+Wire Wire Line
+	1850 2050 2350 2050
+Wire Wire Line
+	1850 2150 2350 2150
+Wire Wire Line
+	1850 2250 2350 2250
+Wire Wire Line
+	1850 2350 2350 2350
+Wire Wire Line
+	1850 2450 2350 2450
+Wire Wire Line
+	1850 2550 2350 2550
+Wire Wire Line
+	1850 2650 2350 2650
+Wire Wire Line
+	1850 2750 2350 2750
+Wire Wire Line
+	1850 2850 2350 2850
+Wire Wire Line
+	1850 2950 2350 2950
+Wire Wire Line
+	1850 3050 2350 3050
+Wire Wire Line
+	1850 3150 2350 3150
+Wire Wire Line
+	1850 3250 2350 3250
+Wire Wire Line
+	1850 3350 2350 3350
+Wire Wire Line
+	1850 3450 2350 3450
+Wire Wire Line
+	1850 3550 2350 3550
+Wire Wire Line
+	1850 3650 2350 3650
+Wire Wire Line
+	1850 3750 2350 3750
+Wire Wire Line
+	1850 3850 2350 3850
+Wire Wire Line
+	1850 3950 2350 3950
+Wire Wire Line
+	1850 4050 2350 4050
+Wire Wire Line
+	1850 4150 2350 4150
+Wire Wire Line
+	1850 4250 2350 4250
+Wire Wire Line
+	1850 4350 2350 4350
+Wire Wire Line
+	1850 4450 2350 4450
+Wire Wire Line
+	1850 4550 2350 4550
+Wire Wire Line
+	1850 4650 2350 4650
+Wire Wire Line
+	1850 4750 2350 4750
+Wire Wire Line
+	1850 4850 2350 4850
+Wire Wire Line
+	1850 4950 2350 4950
+Wire Wire Line
+	1850 5050 2350 5050
 $EndSCHEMATC

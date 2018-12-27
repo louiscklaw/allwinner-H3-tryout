@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 15 31
+Sheet 15 32
 Title ""
 Date ""
 Rev ""
@@ -109,5 +109,11 @@ S 5150 3750 850  400
 U 5C2B8F59
 F0 "CPU_SYS" 50
 F1 "CPU_SYS.sch" 50
+$EndSheet
+$Sheet
+S 1100 3200 850  400 
+U 5C786D7F
+F0 "CPU_GND" 50
+F1 "CPU_GND.sch" 50
 $EndSheet
 $EndSCHEMATC
