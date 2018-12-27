@@ -841,17 +841,6 @@ F 3 "" H 8650 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-components:Vcc-5V #PWR?
-U 1 1 5C232B2D
-P 9350 5100
-F 0 "#PWR?" H 9350 4950 50  0001 C CNN
-F 1 "Vcc-5V" H 9400 5250 50  0000 C CNN
-F 2 "" H 9350 5100 50  0001 C CNN
-F 3 "" H 9350 5100 50  0001 C CNN
-	1    9350 5100
-	1    0    0    -1  
-$EndComp
-$Comp
 L taobao-c:C104,0603 C?
 U 1 1 5C232C12
 P 8950 6250
@@ -955,6 +944,17 @@ F 1 "VCC-IO" H 7400 4850 50  0000 C CNN
 F 2 "" H 7350 4700 50  0001 C CNN
 F 3 "" H 7350 4700 50  0001 C CNN
 	1    7350 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-components:VCC-5V #PWR?
+U 1 1 5C7DB88A
+P 9350 5100
+F 0 "#PWR?" H 9350 4950 50  0001 C CNN
+F 1 "VCC-5V" H 9400 5250 50  0000 C CNN
+F 2 "" H 9350 5100 50  0001 C CNN
+F 3 "" H 9350 5100 50  0001 C CNN
+	1    9350 5100
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

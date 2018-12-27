@@ -249,17 +249,6 @@ Connection ~ 6350 4100
 Wire Wire Line
 	6350 4100 7400 4100
 $Comp
-L taobao-components:Vio #PWR?
-U 1 1 5C272DF7
-P 3600 2900
-F 0 "#PWR?" H 3600 2750 50  0001 C CNN
-F 1 "Vio" H 3650 3050 50  0000 C CNN
-F 2 "" H 3600 2900 50  0001 C CNN
-F 3 "" H 3600 2900 50  0001 C CNN
-	1    3600 2900
-	1    0    0    -1  
-$EndComp
-$Comp
 L taobao-components:Vcc-TF #PWR?
 U 1 1 5C272F32
 P 4600 2900
@@ -289,4 +278,15 @@ Wire Wire Line
 	4150 3050 4600 3050
 Wire Wire Line
 	4600 3050 4600 2900
+$Comp
+L taobao-components:VCC-IO #PWR?
+U 1 1 5C7DEB10
+P 3600 2900
+F 0 "#PWR?" H 3600 2750 50  0001 C CNN
+F 1 "VCC-IO" H 3650 3050 50  0000 C CNN
+F 2 "" H 3600 2900 50  0001 C CNN
+F 3 "" H 3600 2900 50  0001 C CNN
+	1    3600 2900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
