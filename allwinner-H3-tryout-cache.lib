@@ -1202,6 +1202,23 @@ X AVDD10 9 -1150 -250 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# taobao-components_R_NC,0402
+#
+DEF taobao-components_R_NC,0402 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "taobao-components_R_NC,0402" 30 -40 50 H V L CNN
+F2 "Resistor_SMD:R_0402_1005Metric" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Resistor_SMD:R_0402*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # taobao-components_R_NC,0603
 #
 DEF taobao-components_R_NC,0603 R 0 10 N N 1 F N
@@ -1233,6 +1250,21 @@ DRAW
 S -30 70 30 -70 0 1 8 N
 X ~ 1 0 100 30 D 50 50 1 1 P
 X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# taobao-components_SGM803-SXN3
+#
+DEF taobao-components_SGM803-SXN3 U 0 30 Y Y 1 F N
+F0 "U" -150 125 50 H V C CNN
+F1 "taobao-components_SGM803-SXN3" 0 125 50 H V L CNN
+F2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" 0 200 50 H I C CNN
+F3 "" 100 -250 50 H I C CNN
+DRAW
+S -200 -200 200 75 0 1 10 f
+X GND 1 0 -300 100 U 50 50 1 1 W
+X ~RST~ 2 300 0 100 L 50 50 1 1 P
+X VIN 3 -300 0 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #

@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 18
+Sheet 1 19
 Title ""
 Date ""
 Rev ""
@@ -159,5 +159,11 @@ S 600  2450 850  400
 U 5C66D9B1
 F0 "cpus" 50
 F1 "cpus.sch" 50
+$EndSheet
+$Sheet
+S 1600 650  850  400 
+U 5C2567C9
+F0 "reset" 50
+F1 "reset.sch" 50
 $EndSheet
 $EndSCHEMATC
