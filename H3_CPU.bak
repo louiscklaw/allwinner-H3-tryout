@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 15 27
+Sheet 15 28
 Title ""
 Date ""
 Rev ""
@@ -85,5 +85,11 @@ S 5150 1300 850  400
 U 5C2931D3
 F0 "EPHY" 50
 F1 "EPHY.sch" 50
+$EndSheet
+$Sheet
+S 5150 1900 850  400 
+U 5C29E760
+F0 "TVOUT" 50
+F1 "TVOUT.sch" 50
 $EndSheet
 $EndSCHEMATC
