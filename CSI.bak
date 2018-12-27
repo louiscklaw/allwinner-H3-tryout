@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 33
+Sheet 10 34
 Title ""
 Date ""
 Rev ""
@@ -2906,19 +2906,6 @@ F 3 "" H 9000 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-components:Vcc-io #PWR?
-U 1 1 5C25BF2D
-P 8150 5450
-AR Path="/5C259FA6/5C25BF2D" Ref="#PWR?"  Part="1" 
-AR Path="/5C21B42E/5C25BF2D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8150 5300 50  0001 C CNN
-F 1 "Vcc-io" H 8155 5573 50  0000 C CNN
-F 2 "" H 8150 5450 50  0001 C CNN
-F 3 "" H 8150 5450 50  0001 C CNN
-	1    8150 5450
-	1    0    0    -1  
-$EndComp
-$Comp
 L taobao-r:R513,0603 R?
 U 1 1 5C25BF91
 P 9800 5750
@@ -3068,19 +3055,6 @@ F 3 "" H 9000 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-components:Vcc-io #PWR?
-U 1 1 5C2627FF
-P 8150 4400
-AR Path="/5C259FA6/5C2627FF" Ref="#PWR?"  Part="1" 
-AR Path="/5C21B42E/5C2627FF" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8150 4250 50  0001 C CNN
-F 1 "Vcc-io" H 8155 4523 50  0000 C CNN
-F 2 "" H 8150 4400 50  0001 C CNN
-F 3 "" H 8150 4400 50  0001 C CNN
-	1    8150 4400
-	1    0    0    -1  
-$EndComp
-$Comp
 L taobao-r:R513,0603 R?
 U 1 1 5C262805
 P 9800 4700
@@ -3227,19 +3201,6 @@ F 1 "AP2127K-ADJTRG1" H 9000 3524 50  0000 C CNN
 F 2 "" H 9000 3250 50  0001 C CNN
 F 3 "" H 9000 3250 50  0001 C CNN
 	1    9000 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L taobao-components:Vcc-io #PWR?
-U 1 1 5C266FD7
-P 7650 2850
-AR Path="/5C259FA6/5C266FD7" Ref="#PWR?"  Part="1" 
-AR Path="/5C21B42E/5C266FD7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7650 2700 50  0001 C CNN
-F 1 "Vcc-io" H 7655 2973 50  0000 C CNN
-F 2 "" H 7650 2850 50  0001 C CNN
-F 3 "" H 7650 2850 50  0001 C CNN
-	1    7650 2850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3439,19 +3400,6 @@ F 1 "CSI-DOVDD" V 5405 3227 50  0000 L CNN
 F 2 "" H 5400 3150 50  0001 C CNN
 F 3 "" H 5400 3150 50  0001 C CNN
 	1    5400 3150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L taobao-components:Vcc-io #PWR?
-U 1 1 5C276840
-P 5400 3050
-AR Path="/5C259FA6/5C276840" Ref="#PWR?"  Part="1" 
-AR Path="/5C21B42E/5C276840" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5400 2900 50  0001 C CNN
-F 1 "Vcc-io" V 5405 3128 50  0000 L CNN
-F 2 "" H 5400 3050 50  0001 C CNN
-F 3 "" H 5400 3050 50  0001 C CNN
-	1    5400 3050
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -6984,4 +6932,48 @@ Wire Wire Line
 	1650 3550 2300 3550
 Wire Wire Line
 	1650 3650 2300 3650
+$Comp
+L taobao-components:VCC-IO #PWR?
+U 1 1 5C7D814D
+P 7650 2850
+F 0 "#PWR?" H 7650 2700 50  0001 C CNN
+F 1 "VCC-IO" H 7700 3000 50  0000 C CNN
+F 2 "" H 7650 2850 50  0001 C CNN
+F 3 "" H 7650 2850 50  0001 C CNN
+	1    7650 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-components:VCC-IO #PWR?
+U 1 1 5C7D837C
+P 8150 5450
+F 0 "#PWR?" H 8150 5300 50  0001 C CNN
+F 1 "VCC-IO" H 8200 5600 50  0000 C CNN
+F 2 "" H 8150 5450 50  0001 C CNN
+F 3 "" H 8150 5450 50  0001 C CNN
+	1    8150 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-components:VCC-IO #PWR?
+U 1 1 5C7D85D2
+P 8150 4400
+F 0 "#PWR?" H 8150 4250 50  0001 C CNN
+F 1 "VCC-IO" H 8200 4550 50  0000 C CNN
+F 2 "" H 8150 4400 50  0001 C CNN
+F 3 "" H 8150 4400 50  0001 C CNN
+	1    8150 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-components:VCC-IO #PWR?
+U 1 1 5C7D8654
+P 5400 3050
+F 0 "#PWR?" H 5400 2900 50  0001 C CNN
+F 1 "VCC-IO" V 5450 3150 50  0000 L CNN
+F 2 "" H 5400 3050 50  0001 C CNN
+F 3 "" H 5400 3050 50  0001 C CNN
+	1    5400 3050
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

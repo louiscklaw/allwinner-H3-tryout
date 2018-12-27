@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 12 33
+Sheet 12 34
 Title ""
 Date ""
 Rev ""
@@ -2663,20 +2663,6 @@ F 3 "~" H 4150 1550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L taobao-components:Vcc-io #PWR?
-U 1 1 5C2AAC8D
-P 1950 950
-AR Path="/5C77255A/5C2AAC8D" Ref="#PWR?"  Part="1" 
-AR Path="/5C22EE91/5C2AAC8D" Ref="#PWR?"  Part="1" 
-AR Path="/5C22DA43/5C2AAC8D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1950 800 50  0001 C CNN
-F 1 "Vcc-io" H 1955 1073 50  0000 C CNN
-F 2 "" H 1950 950 50  0001 C CNN
-F 3 "" H 1950 950 50  0001 C CNN
-	1    1950 950 
-	1    0    0    -1  
-$EndComp
-$Comp
 L taobao-r:R103,0603 R?
 U 1 1 5C2AAD60
 P 1950 1150
@@ -2979,20 +2965,6 @@ Wire Wire Line
 Wire Wire Line
 	8300 2000 7900 2000
 Connection ~ 7900 2000
-$Comp
-L taobao-components:Vcc-5V #PWR?
-U 1 1 5C2C00C6
-P 8300 1400
-AR Path="/5C77255A/5C2C00C6" Ref="#PWR?"  Part="1" 
-AR Path="/5C22EE91/5C2C00C6" Ref="#PWR?"  Part="1" 
-AR Path="/5C22DA43/5C2C00C6" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8300 1250 50  0001 C CNN
-F 1 "Vcc-5V" H 8305 1523 50  0000 C CNN
-F 2 "" H 8300 1400 50  0001 C CNN
-F 3 "" H 8300 1400 50  0001 C CNN
-	1    8300 1400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8300 1400 8300 1500
 Connection ~ 8300 1500
@@ -3906,20 +3878,6 @@ F 1 "Vio" H 2705 5373 50  0000 C CNN
 F 2 "" H 2700 5250 50  0001 C CNN
 F 3 "" H 2700 5250 50  0001 C CNN
 	1    2700 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L taobao-components:Vcc-5V #PWR?
-U 1 1 5C2C7E3C
-P 3150 5500
-AR Path="/5C77255A/5C2C7E3C" Ref="#PWR?"  Part="1" 
-AR Path="/5C22EE91/5C2C7E3C" Ref="#PWR?"  Part="1" 
-AR Path="/5C22DA43/5C2C7E3C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3150 5350 50  0001 C CNN
-F 1 "Vcc-5V" H 3155 5623 50  0000 C CNN
-F 2 "" H 3150 5500 50  0001 C CNN
-F 3 "" H 3150 5500 50  0001 C CNN
-	1    3150 5500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -6223,4 +6181,37 @@ Text Label 2450 12150 0    50   ~ 0
 USB-DP3
 Wire Wire Line
 	2450 12150 3400 12150
+$Comp
+L taobao-components:VCC-IO #PWR?
+U 1 1 5C7D8724
+P 1950 950
+F 0 "#PWR?" H 1950 800 50  0001 C CNN
+F 1 "VCC-IO" H 2000 1100 50  0000 C CNN
+F 2 "" H 1950 950 50  0001 C CNN
+F 3 "" H 1950 950 50  0001 C CNN
+	1    1950 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-components:VCC-5V #PWR?
+U 1 1 5C7DB996
+P 8300 1400
+F 0 "#PWR?" H 8300 1250 50  0001 C CNN
+F 1 "VCC-5V" H 8350 1550 50  0000 C CNN
+F 2 "" H 8300 1400 50  0001 C CNN
+F 3 "" H 8300 1400 50  0001 C CNN
+	1    8300 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-components:VCC-5V #PWR?
+U 1 1 5C7DBA7D
+P 3150 5500
+F 0 "#PWR?" H 3150 5350 50  0001 C CNN
+F 1 "VCC-5V" H 3200 5650 50  0000 C CNN
+F 2 "" H 3150 5500 50  0001 C CNN
+F 3 "" H 3150 5500 50  0001 C CNN
+	1    3150 5500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

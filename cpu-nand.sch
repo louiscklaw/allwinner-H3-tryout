@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 17 33
+Sheet 17 34
 Title ""
 Date ""
 Rev ""
@@ -21,6 +21,7 @@ P 8050 4200
 AR Path="/5C66BA53/5C66BDF5" Ref="U?"  Part="1" 
 AR Path="/5C66D9B1/5C66BDF5" Ref="U?"  Part="1" 
 AR Path="/5C273FE9/5C29102B/5C66BDF5" Ref="U?"  Part="1" 
+AR Path="/5C7B767A/5C29102B/5C66BDF5" Ref="U?"  Part="1" 
 F 0 "U?" H 7950 5500 50  0000 C CNN
 F 1 "allwinner-H3" H 7950 5400 50  0000 C CNN
 F 2 "" H 9300 2950 50  0001 C CNN
@@ -97,6 +98,7 @@ P 9450 3800
 AR Path="/5C66BA53/5C66BFD7" Ref="R?"  Part="1" 
 AR Path="/5C66D9B1/5C66BFD7" Ref="R?"  Part="1" 
 AR Path="/5C273FE9/5C29102B/5C66BFD7" Ref="R?"  Part="1" 
+AR Path="/5C7B767A/5C29102B/5C66BFD7" Ref="R?"  Part="1" 
 F 0 "R?" V 9200 3800 50  0000 C CNN
 F 1 "R330,0603" V 9300 3800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9450 3800 50  0001 C CNN

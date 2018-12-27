@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 33
+Sheet 1 34
 Title ""
 Date ""
 Rev ""
@@ -141,5 +141,11 @@ S 700  600  1050 900
 U 5C273FE9
 F0 "H3_CPU" 50
 F1 "H3_CPU.sch" 50
+$EndSheet
+$Sheet
+S 700  2150 1050 900 
+U 5C7B767A
+F0 "power_rail" 50
+F1 "power_rail.sch" 50
 $EndSheet
 $EndSCHEMATC

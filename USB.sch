@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 5 33
+Sheet 5 34
 Title ""
 Date ""
 Rev ""
@@ -819,17 +819,6 @@ F 3 "~" H 6500 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-components:Vcc-io #PWR?
-U 1 1 5C2327E9
-P 7350 4700
-F 0 "#PWR?" H 7350 4550 50  0001 C CNN
-F 1 "Vcc-io" H 7400 4850 50  0000 C CNN
-F 2 "" H 7350 4700 50  0001 C CNN
-F 3 "" H 7350 4700 50  0001 C CNN
-	1    7350 4700
-	1    0    0    -1  
-$EndComp
-$Comp
 L taobao-r:R103,0603 R?
 U 1 1 5C232926
 P 7350 4900
@@ -849,17 +838,6 @@ F 1 "USBVBUS" H 8700 5250 50  0000 C CNN
 F 2 "" H 8650 5100 50  0001 C CNN
 F 3 "" H 8650 5100 50  0001 C CNN
 	1    8650 5100
-	1    0    0    -1  
-$EndComp
-$Comp
-L taobao-components:Vcc-5V #PWR?
-U 1 1 5C232B2D
-P 9350 5100
-F 0 "#PWR?" H 9350 4950 50  0001 C CNN
-F 1 "Vcc-5V" H 9400 5250 50  0000 C CNN
-F 2 "" H 9350 5100 50  0001 C CNN
-F 3 "" H 9350 5100 50  0001 C CNN
-	1    9350 5100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -957,4 +935,26 @@ Text Label 9350 5550 2    50   ~ 0
 USB-DN1
 Text Label 9350 5750 2    50   ~ 0
 USB0-ID
+$Comp
+L taobao-components:VCC-IO #PWR?
+U 1 1 5C7D75C3
+P 7350 4700
+F 0 "#PWR?" H 7350 4550 50  0001 C CNN
+F 1 "VCC-IO" H 7400 4850 50  0000 C CNN
+F 2 "" H 7350 4700 50  0001 C CNN
+F 3 "" H 7350 4700 50  0001 C CNN
+	1    7350 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-components:VCC-5V #PWR?
+U 1 1 5C7DB88A
+P 9350 5100
+F 0 "#PWR?" H 9350 4950 50  0001 C CNN
+F 1 "VCC-5V" H 9400 5250 50  0000 C CNN
+F 2 "" H 9350 5100 50  0001 C CNN
+F 3 "" H 9350 5100 50  0001 C CNN
+	1    9350 5100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

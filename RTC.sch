@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 33
+Sheet 9 34
 Title ""
 Date ""
 Rev ""
@@ -2298,17 +2298,6 @@ AE F9 D3 00 00 00 00 49 45 4E 44 AE 42 60 82
 EndData
 $EndBitmap
 $Comp
-L taobao-components:Vcc-io #PWR?
-U 1 1 5C21CF1E
-P 4400 4300
-F 0 "#PWR?" H 4400 4150 50  0001 C CNN
-F 1 "Vcc-io" H 4405 4423 50  0000 C CNN
-F 2 "" H 4400 4300 50  0001 C CNN
-F 3 "" H 4400 4300 50  0001 C CNN
-	1    4400 4300
-	1    0    0    -1  
-$EndComp
-$Comp
 L taobao-led:LED_GREEN,0603 D?
 U 1 1 5C21D0E8
 P 4400 4600
@@ -2339,17 +2328,6 @@ F 1 "2N3904(1AM)" H 4491 5255 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4500 5225 50  0001 L CIN
 F 3 "" H 4300 5300 50  0001 L CNN
 	1    4300 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L taobao-components:Vcc-io #PWR?
-U 1 1 5C21D451
-P 3600 4800
-F 0 "#PWR?" H 3600 4650 50  0001 C CNN
-F 1 "Vcc-io" H 3605 4923 50  0000 C CNN
-F 2 "" H 3600 4800 50  0001 C CNN
-F 3 "" H 3600 4800 50  0001 C CNN
-	1    3600 4800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2415,17 +2393,6 @@ F 1 "raspberry-exp-io" H 8600 6124 50  0000 C CNN
 F 2 "" H 8100 5100 50  0001 C CNN
 F 3 "" H 8100 5100 50  0001 C CNN
 	1    8600 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L taobao-components:Vcc-io #PWR?
-U 1 1 5C226D11
-P 7400 3750
-F 0 "#PWR?" H 7400 3600 50  0001 C CNN
-F 1 "Vcc-io" H 7405 3873 50  0000 C CNN
-F 2 "" H 7400 3750 50  0001 C CNN
-F 3 "" H 7400 3750 50  0001 C CNN
-	1    7400 3750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2524,17 +2491,6 @@ Text GLabel 7100 5750 0    50   Input ~ 0
 PA10-ENT10
 Text GLabel 7100 5850 0    50   Input ~ 0
 SPDIF-OUT
-$Comp
-L taobao-components:Vcc-5V #PWR?
-U 1 1 5C22F514
-P 9500 3750
-F 0 "#PWR?" H 9500 3600 50  0001 C CNN
-F 1 "Vcc-5V" H 9505 3873 50  0000 C CNN
-F 2 "" H 9500 3750 50  0001 C CNN
-F 3 "" H 9500 3750 50  0001 C CNN
-	1    9500 3750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9500 3750 9500 4050
 Wire Wire Line
@@ -12358,4 +12314,48 @@ EA 35 17 74 22 89 D9 30 53 09 62 2F 45 19 70 4F 92 4B 61 A6 B6 06 BD B2 A6 E8 C8
 87 0A 19 EA 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+$Comp
+L taobao-components:VCC-IO #PWR?
+U 1 1 5C7D7D06
+P 4400 4300
+F 0 "#PWR?" H 4400 4150 50  0001 C CNN
+F 1 "VCC-IO" H 4450 4450 50  0000 C CNN
+F 2 "" H 4400 4300 50  0001 C CNN
+F 3 "" H 4400 4300 50  0001 C CNN
+	1    4400 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-components:VCC-IO #PWR?
+U 1 1 5C7D7D2E
+P 3600 4800
+F 0 "#PWR?" H 3600 4650 50  0001 C CNN
+F 1 "VCC-IO" H 3650 4950 50  0000 C CNN
+F 2 "" H 3600 4800 50  0001 C CNN
+F 3 "" H 3600 4800 50  0001 C CNN
+	1    3600 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-components:VCC-IO #PWR?
+U 1 1 5C7D7F5F
+P 7400 3750
+F 0 "#PWR?" H 7400 3600 50  0001 C CNN
+F 1 "VCC-IO" H 7450 3900 50  0000 C CNN
+F 2 "" H 7400 3750 50  0001 C CNN
+F 3 "" H 7400 3750 50  0001 C CNN
+	1    7400 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-components:VCC-5V #PWR?
+U 1 1 5C7DB90F
+P 9500 3750
+F 0 "#PWR?" H 9500 3600 50  0001 C CNN
+F 1 "VCC-5V" H 9550 3900 50  0000 C CNN
+F 2 "" H 9500 3750 50  0001 C CNN
+F 3 "" H 9500 3750 50  0001 C CNN
+	1    9500 3750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

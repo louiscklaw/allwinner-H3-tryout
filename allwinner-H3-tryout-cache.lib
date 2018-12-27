@@ -1437,6 +1437,20 @@ X V-flash 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
+# taobao-components_VCC-1V2
+#
+DEF taobao-components_VCC-1V2 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "taobao-components_VCC-1V2" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -50 50 50 50 N
+P 2 0 1 0 0 0 0 50 N
+X VCC-1V2 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # taobao-components_VCC-3V3
 #
 DEF taobao-components_VCC-3V3 #PWR 0 0 Y Y 1 F P
@@ -1448,6 +1462,34 @@ DRAW
 P 2 0 1 0 -50 50 50 50 N
 P 2 0 1 0 0 0 0 50 N
 X VCC-3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# taobao-components_VCC-5V
+#
+DEF taobao-components_VCC-5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "taobao-components_VCC-5V" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -50 50 50 50 N
+P 2 0 1 0 0 0 0 50 N
+X VCC-5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# taobao-components_VCC-IO
+#
+DEF taobao-components_VCC-IO #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "taobao-components_VCC-IO" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -50 50 50 50 N
+P 2 0 1 0 0 0 0 50 N
+X VCC-IO 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
@@ -1521,6 +1563,34 @@ X VCC-UART 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
+# taobao-components_VCC3V3-AUDIO
+#
+DEF taobao-components_VCC3V3-AUDIO #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "taobao-components_VCC3V3-AUDIO" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -50 50 50 50 N
+P 2 0 1 0 0 0 0 50 N
+X VCC3V3-AUDIO 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# taobao-components_VCC3V3-EFUSE
+#
+DEF taobao-components_VCC3V3-EFUSE #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "taobao-components_VCC3V3-EFUSE" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -50 50 50 50 N
+P 2 0 1 0 0 0 0 50 N
+X VCC3V3-EFUSE 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # taobao-components_VCC3V3-EPHY
 #
 DEF taobao-components_VCC3V3-EPHY #PWR 0 0 Y Y 1 F P
@@ -1535,6 +1605,20 @@ X VCC3V3-EPHY 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
+# taobao-components_VCC3V3-FELED
+#
+DEF taobao-components_VCC3V3-FELED #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "taobao-components_VCC3V3-FELED" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -50 50 50 50 N
+P 2 0 1 0 0 0 0 50 N
+X VCC3V3-FELED 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # taobao-components_VCC3V3-HDMI
 #
 DEF taobao-components_VCC3V3-HDMI #PWR 0 0 Y Y 1 F P
@@ -1546,6 +1630,90 @@ DRAW
 P 2 0 1 0 -50 50 50 50 N
 P 2 0 1 0 0 0 0 50 N
 X VCC3V3-HDMI 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# taobao-components_VCC3V3-IR
+#
+DEF taobao-components_VCC3V3-IR #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "taobao-components_VCC3V3-IR" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -50 50 50 50 N
+P 2 0 1 0 0 0 0 50 N
+X VCC3V3-IR 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# taobao-components_VCC3V3-JTAGX
+#
+DEF taobao-components_VCC3V3-JTAGX #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "taobao-components_VCC3V3-JTAGX" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -50 50 50 50 N
+P 2 0 1 0 0 0 0 50 N
+X VCC3V3-JTAGX 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# taobao-components_VCC3V3-KEY
+#
+DEF taobao-components_VCC3V3-KEY #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "taobao-components_VCC3V3-KEY" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -50 50 50 50 N
+P 2 0 1 0 0 0 0 50 N
+X VCC3V3-KEY 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# taobao-components_VCC3V3-KEYPWR
+#
+DEF taobao-components_VCC3V3-KEYPWR #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "taobao-components_VCC3V3-KEYPWR" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -50 50 50 50 N
+P 2 0 1 0 0 0 0 50 N
+X VCC3V3-KEYPWR 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# taobao-components_VCC3V3-LED
+#
+DEF taobao-components_VCC3V3-LED #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "taobao-components_VCC3V3-LED" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -50 50 50 50 N
+P 2 0 1 0 0 0 0 50 N
+X VCC3V3-LED 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# taobao-components_VCC3V3-NAND
+#
+DEF taobao-components_VCC3V3-NAND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "taobao-components_VCC3V3-NAND" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -50 50 50 50 N
+P 2 0 1 0 0 0 0 50 N
+X VCC3V3-NAND 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
@@ -1577,6 +1745,20 @@ X VCC3V3-TV 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
+# taobao-components_VCC3V3-UART
+#
+DEF taobao-components_VCC3V3-UART #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "taobao-components_VCC3V3-UART" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -50 50 50 50 N
+P 2 0 1 0 0 0 0 50 N
+X VCC3V3-UART 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # taobao-components_VCC3V3-USB
 #
 DEF taobao-components_VCC3V3-USB #PWR 0 0 Y Y 1 F P
@@ -1588,6 +1770,48 @@ DRAW
 P 2 0 1 0 -50 50 50 50 N
 P 2 0 1 0 0 0 0 50 N
 X VCC3V3-USB 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# taobao-components_VCC5V-HDMI
+#
+DEF taobao-components_VCC5V-HDMI #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "taobao-components_VCC5V-HDMI" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -50 50 50 50 N
+P 2 0 1 0 0 0 0 50 N
+X VCC5V-HDMI 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# taobao-components_VCC5V-SPDIF
+#
+DEF taobao-components_VCC5V-SPDIF #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "taobao-components_VCC5V-SPDIF" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -50 50 50 50 N
+P 2 0 1 0 0 0 0 50 N
+X VCC5V-SPDIF 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# taobao-components_VCC5V-USB
+#
+DEF taobao-components_VCC5V-USB #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "taobao-components_VCC5V-USB" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -50 50 50 50 N
+P 2 0 1 0 0 0 0 50 N
+X VCC5V-USB 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
@@ -1630,6 +1854,20 @@ DRAW
 P 2 0 1 0 -50 50 50 50 N
 P 2 0 1 0 0 0 0 50 N
 X VDD1V1-EPHY 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# taobao-components_VDD1V2-SYS
+#
+DEF taobao-components_VDD1V2-SYS #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "taobao-components_VDD1V2-SYS" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -50 50 50 50 N
+P 2 0 1 0 0 0 0 50 N
+X VDD1V2-SYS 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
@@ -1759,20 +1997,6 @@ X V_WIFI_IO 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# taobao-components_Vcc-5V
-#
-DEF taobao-components_Vcc-5V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "taobao-components_Vcc-5V" 0 100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -50 50 50 50 N
-P 2 0 1 0 0 0 0 50 N
-X Vcc-5V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
 # taobao-components_Vcc-TF
 #
 DEF taobao-components_Vcc-TF #PWR 0 0 Y Y 1 F P
@@ -1784,20 +2008,6 @@ DRAW
 P 2 0 1 0 -50 50 50 50 N
 P 2 0 1 0 0 0 0 50 N
 X Vcc-TF 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# taobao-components_Vcc-io
-#
-DEF taobao-components_Vcc-io #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "taobao-components_Vcc-io" 0 100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -50 50 50 50 N
-P 2 0 1 0 0 0 0 50 N
-X Vcc-io 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 6 33
+Sheet 6 34
 Title ""
 Date ""
 Rev ""
@@ -1551,17 +1551,6 @@ F 3 "~" H 10300 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-components:Vcc-io #PWR?
-U 1 1 5C34B9F1
-P 10800 4400
-F 0 "#PWR?" H 10800 4250 50  0001 C CNN
-F 1 "Vcc-io" H 10850 4550 50  0000 C CNN
-F 2 "" H 10800 4400 50  0001 C CNN
-F 3 "" H 10800 4400 50  0001 C CNN
-	1    10800 4400
-	1    0    0    -1  
-$EndComp
-$Comp
 L taobao-c:C104,0603 C?
 U 1 1 5C34BB9C
 P 10800 4800
@@ -1657,17 +1646,6 @@ $EndComp
 Wire Wire Line
 	8550 4800 8550 5200
 $Comp
-L taobao-components:Vcc-io #PWR?
-U 1 1 5C39DCD8
-P 8550 6050
-F 0 "#PWR?" H 8550 5900 50  0001 C CNN
-F 1 "Vcc-io" H 8600 6200 50  0000 C CNN
-F 2 "" H 8550 6050 50  0001 C CNN
-F 3 "" H 8550 6050 50  0001 C CNN
-	1    8550 6050
-	1    0    0    -1  
-$EndComp
-$Comp
 L taobao-components:AVCC #PWR?
 U 1 1 5C39E088
 P 10100 6050
@@ -1726,4 +1704,26 @@ Wire Wire Line
 Connection ~ 9550 6200
 Wire Wire Line
 	9550 6200 10100 6200
+$Comp
+L taobao-components:VCC-IO #PWR?
+U 1 1 5C7D7758
+P 10800 4400
+F 0 "#PWR?" H 10800 4250 50  0001 C CNN
+F 1 "VCC-IO" H 10850 4550 50  0000 C CNN
+F 2 "" H 10800 4400 50  0001 C CNN
+F 3 "" H 10800 4400 50  0001 C CNN
+	1    10800 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-components:VCC-IO #PWR?
+U 1 1 5C7D78DC
+P 8550 6050
+F 0 "#PWR?" H 8550 5900 50  0001 C CNN
+F 1 "VCC-IO" H 8600 6200 50  0000 C CNN
+F 2 "" H 8550 6050 50  0001 C CNN
+F 3 "" H 8550 6050 50  0001 C CNN
+	1    8550 6050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

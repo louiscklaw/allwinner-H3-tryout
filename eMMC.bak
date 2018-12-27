@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 13 33
+Sheet 13 34
 Title ""
 Date ""
 Rev ""
@@ -392,17 +392,6 @@ F 3 "" H 5650 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-components:Vcc-io #PWR?
-U 1 1 5C5BE824
-P 4650 2100
-F 0 "#PWR?" H 4650 1950 50  0001 C CNN
-F 1 "Vcc-io" H 4700 2250 50  0000 C CNN
-F 2 "" H 4650 2100 50  0001 C CNN
-F 3 "" H 4650 2100 50  0001 C CNN
-	1    4650 2100
-	1    0    0    -1  
-$EndComp
-$Comp
 L taobao-r:R0,0603 R?
 U 1 1 5C5C07D8
 P 5100 2200
@@ -421,4 +410,15 @@ Wire Wire Line
 	5200 2200 5650 2200
 Wire Wire Line
 	5650 2200 5650 2100
+$Comp
+L taobao-components:VCC-IO #PWR?
+U 1 1 5C7D87CA
+P 4650 2100
+F 0 "#PWR?" H 4650 1950 50  0001 C CNN
+F 1 "VCC-IO" H 4700 2250 50  0000 C CNN
+F 2 "" H 4650 2100 50  0001 C CNN
+F 3 "" H 4650 2100 50  0001 C CNN
+	1    4650 2100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
