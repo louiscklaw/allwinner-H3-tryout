@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 22
+Sheet 1 23
 Title ""
 Date ""
 Rev ""
@@ -183,5 +183,11 @@ S 650  1300 850  400
 U 5C26F21C
 F0 "PORT_F" 50
 F1 "PORT_F.sch" 50
+$EndSheet
+$Sheet
+S 650  1900 850  400 
+U 5C2711DB
+F0 "PORT_D" 50
+F1 "PORT_D.sch" 50
 $EndSheet
 $EndSCHEMATC

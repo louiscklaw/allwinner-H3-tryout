@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 23
+Sheet 1 26
 Title ""
 Date ""
 Rev ""
@@ -137,57 +137,9 @@ F 3 "~" H 6250 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 1650 700  850  400 
-U 5C5C55F2
-F0 "cpu-power" 50
-F1 "cpu-power.sch" 50
-$EndSheet
-$Sheet
-S 1650 1300 850  400 
-U 5C660882
-F0 "cpu-sdc1" 50
-F1 "cpu-sdc1.sch" 50
-$EndSheet
-$Sheet
-S 1650 1900 850  400 
-U 5C66BA53
-F0 "cpu-nand" 50
-F1 "cpu-nand.sch" 50
-$EndSheet
-$Sheet
-S 1650 2500 850  400 
-U 5C66D9B1
-F0 "cpus" 50
-F1 "cpus.sch" 50
-$EndSheet
-$Sheet
-S 2650 700  850  400 
-U 5C2567C9
-F0 "reset" 50
-F1 "reset.sch" 50
-$EndSheet
-$Sheet
-S 2650 1300 850  400 
-U 5C2621A6
-F0 "OSC_RTC_CLK" 50
-F1 "OSC_RTC_CLK.sch" 50
-$EndSheet
-$Sheet
-S 650  700  850  400 
-U 5C26CC51
-F0 "PORT_A" 50
-F1 "PORT_A.sch" 50
-$EndSheet
-$Sheet
-S 650  1300 850  400 
-U 5C26F21C
-F0 "PORT_F" 50
-F1 "PORT_F.sch" 50
-$EndSheet
-$Sheet
-S 650  1900 850  400 
-U 5C2711DB
-F0 "PORT_D" 50
-F1 "PORT_D.sch" 50
+S 700  600  1050 900 
+U 5C273FE9
+F0 "H3_CPU" 50
+F1 "H3_CPU.sch" 50
 $EndSheet
 $EndSCHEMATC

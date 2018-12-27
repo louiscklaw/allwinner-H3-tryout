@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 22 22
+Sheet 22 23
 Title ""
 Date ""
 Rev ""
@@ -561,6 +561,8 @@ $Comp
 L taobao-components:allwinner-H3 U?
 U 4 1 5C26F59D
 P 8000 3950
+AR Path="/5C26F21C/5C26F59D" Ref="U?"  Part="4" 
+AR Path="/5C2711DB/5C26F59D" Ref="U?"  Part="4" 
 F 0 "U?" H 8700 4050 50  0000 L CNN
 F 1 "allwinner-H3" H 8700 3950 50  0000 L CNN
 F 2 "" H 9250 2700 50  0001 C CNN
@@ -598,6 +600,8 @@ $Comp
 L taobao-r:R330,0603 R?
 U 1 1 5C26F6E3
 P 6750 3850
+AR Path="/5C26F21C/5C26F6E3" Ref="R?"  Part="1" 
+AR Path="/5C2711DB/5C26F6E3" Ref="R?"  Part="1" 
 F 0 "R?" V 6500 3850 50  0000 C CNN
 F 1 "R330,0603" V 6600 3850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6750 3850 50  0001 C CNN
