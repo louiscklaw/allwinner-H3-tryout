@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 24 28
+Sheet 24 29
 Title ""
 Date ""
 Rev ""
@@ -1012,6 +1012,8 @@ $Comp
 L taobao-components:allwinner-H3 U?
 U 5 1 5C273C20
 P 8550 3500
+AR Path="/5C273975/5C273C20" Ref="U?"  Part="5" 
+AR Path="/5C273FE9/5C291039/5C273C20" Ref="U?"  Part="5" 
 F 0 "U?" H 8550 4650 50  0000 C CNN
 F 1 "allwinner-H3" H 8550 4550 50  0000 C CNN
 F 2 "" H 9800 2250 50  0001 C CNN
@@ -1023,6 +1025,8 @@ $Comp
 L taobao-r:R330,0603 R?
 U 1 1 5C273D21
 P 10150 2750
+AR Path="/5C273975/5C273D21" Ref="R?"  Part="1" 
+AR Path="/5C273FE9/5C291039/5C273D21" Ref="R?"  Part="1" 
 F 0 "R?" V 9900 2750 50  0000 C CNN
 F 1 "R330,0603" V 10000 2750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10150 2750 50  0001 C CNN
@@ -1034,6 +1038,8 @@ $Comp
 L taobao-r:R330,0603 R?
 U 1 1 5C273D56
 P 10150 2850
+AR Path="/5C273975/5C273D56" Ref="R?"  Part="1" 
+AR Path="/5C273FE9/5C291039/5C273D56" Ref="R?"  Part="1" 
 F 0 "R?" V 9900 2850 50  0000 C CNN
 F 1 "R330,0603" V 10000 2850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10150 2850 50  0001 C CNN

@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 21 28
+Sheet 21 29
 Title ""
 Date ""
 Rev ""
@@ -20,6 +20,7 @@ U 2 1 5C26D6D0
 P 8650 5000
 AR Path="/5C26CC51/5C26D6D0" Ref="U?"  Part="2" 
 AR Path="/5C26F21C/5C26D6D0" Ref="U?"  Part="2" 
+AR Path="/5C273FE9/5C291033/5C26D6D0" Ref="U?"  Part="2" 
 F 0 "U?" H 9600 4800 50  0000 L CNN
 F 1 "allwinner-H3" H 9600 4700 50  0000 L CNN
 F 2 "" H 9900 3750 50  0001 C CNN
