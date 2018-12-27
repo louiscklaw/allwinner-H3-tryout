@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 15 29
+Sheet 15 30
 Title ""
 Date ""
 Rev ""
@@ -97,5 +97,11 @@ S 5150 2500 850  400
 U 5C2A6DEA
 F0 "CPU_HDMI" 50
 F1 "CPU_HDMI.sch" 50
+$EndSheet
+$Sheet
+S 5150 3150 850  400 
+U 5C2AD451
+F0 "CPU_USB" 50
+F1 "CPU_USB.sch" 50
 $EndSheet
 $EndSCHEMATC
