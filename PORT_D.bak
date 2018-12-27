@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 23 23
+Sheet 23 27
 Title ""
 Date ""
 Rev ""
@@ -1269,6 +1269,8 @@ $Comp
 L taobao-components:allwinner-H3 U?
 U 6 1 5C271320
 P 8400 4650
+AR Path="/5C2711DB/5C271320" Ref="U?"  Part="6" 
+AR Path="/5C273975/5C271320" Ref="U?"  Part="6" 
 F 0 "U?" H 8400 5900 50  0000 C CNN
 F 1 "allwinner-H3" H 8400 5800 50  0000 C CNN
 F 2 "" H 9650 3400 50  0001 C CNN
@@ -1352,6 +1354,8 @@ $Comp
 L taobao-components:VCC-PD #PWR?
 U 1 1 5C2714DC
 P 11850 5300
+AR Path="/5C2711DB/5C2714DC" Ref="#PWR?"  Part="1" 
+AR Path="/5C273975/5C2714DC" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 11850 5150 50  0001 C CNN
 F 1 "VCC-PD" H 11900 5450 50  0000 C CNN
 F 2 "" H 11850 5300 50  0001 C CNN
@@ -1363,6 +1367,8 @@ $Comp
 L taobao-c:C104,0603 C?
 U 1 1 5C2715BE
 P 11850 5850
+AR Path="/5C2711DB/5C2715BE" Ref="C?"  Part="1" 
+AR Path="/5C273975/5C2715BE" Ref="C?"  Part="1" 
 F 0 "C?" H 11950 5900 50  0000 L CNN
 F 1 "C104,0603" H 11950 5850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11850 5850 50  0001 C CNN
@@ -1381,6 +1387,8 @@ $Comp
 L power:GND #PWR?
 U 1 1 5C271C65
 P 11850 6150
+AR Path="/5C2711DB/5C271C65" Ref="#PWR?"  Part="1" 
+AR Path="/5C273975/5C271C65" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 11850 5900 50  0001 C CNN
 F 1 "GND" H 11900 5950 50  0000 C CNN
 F 2 "" H 11850 6150 50  0001 C CNN

@@ -1521,6 +1521,20 @@ X VCC-UART 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
+# taobao-components_VCC3V3-EPHY
+#
+DEF taobao-components_VCC3V3-EPHY #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "taobao-components_VCC3V3-EPHY" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -50 50 50 50 N
+P 2 0 1 0 0 0 0 50 N
+X VCC3V3-EPHY 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # taobao-components_VDD-CPUS
 #
 DEF taobao-components_VDD-CPUS #PWR 0 0 Y Y 1 F P
@@ -1546,6 +1560,20 @@ DRAW
 P 2 0 1 0 -50 50 50 50 N
 P 2 0 1 0 0 0 0 50 N
 X VDD-CPUX 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# taobao-components_VDD1V1-EPHY
+#
+DEF taobao-components_VDD1V1-EPHY #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "taobao-components_VDD1V1-EPHY" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -50 50 50 50 N
+P 2 0 1 0 0 0 0 50 N
+X VDD1V1-EPHY 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
@@ -2769,6 +2797,23 @@ ENDDEF
 DEF taobao-r_R563,0603 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
 F1 "taobao-r_R563,0603" 30 -40 50 H V L CNN
+F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Resistor_SMD:R_0603*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# taobao-r_R602,0603
+#
+DEF taobao-r_R602,0603 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "taobao-r_R602,0603" 30 -40 50 H V L CNN
 F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST

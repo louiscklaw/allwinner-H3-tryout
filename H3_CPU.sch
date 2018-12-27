@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 15 26
+Sheet 15 27
 Title ""
 Date ""
 Rev ""
@@ -79,5 +79,11 @@ S 5150 700  850  400
 U 5C29103B
 F0 "AUDIO_CODEC" 50
 F1 "AUDIO_CODEC.sch" 50
+$EndSheet
+$Sheet
+S 5150 1300 850  400 
+U 5C2931D3
+F0 "EPHY" 50
+F1 "EPHY.sch" 50
 $EndSheet
 $EndSCHEMATC
