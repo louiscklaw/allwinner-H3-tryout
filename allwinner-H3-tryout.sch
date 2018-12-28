@@ -33,12 +33,6 @@ F0 "ETH_PHY" 50
 F1 "ETH_PHY.sch" 50
 $EndSheet
 $Sheet
-S 10000 650  1050 900 
-U 5C77255A
-F0 "USB" 50
-F1 "USB.sch" 50
-$EndSheet
-$Sheet
 S 8750 650  1050 900 
 U 5C7849B0
 F0 "POWER" 50
