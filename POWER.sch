@@ -633,17 +633,6 @@ F 3 "" H 7050 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+1V2 #PWR?
-U 1 1 5C1E907F
-P 7050 4900
-F 0 "#PWR?" H 7050 4750 50  0001 C CNN
-F 1 "+1V2" H 7100 5100 50  0000 C CNN
-F 2 "" H 7050 4900 50  0001 C CNN
-F 3 "" H 7050 4900 50  0001 C CNN
-	1    7050 4900
-	1    0    0    -1  
-$EndComp
-$Comp
 L taobao-r:R104,0603 R?
 U 1 1 5C1F601E
 P 6100 5350
@@ -1114,8 +1103,6 @@ Wire Wire Line
 Connection ~ 7400 8600
 Text Label 6450 8600 0    50   ~ 0
 CPUX-SET
-Wire Wire Line
-	6450 8600 7000 8600
 $Comp
 L taobao-components:VUSB_5V #PWR?
 U 1 1 5C2A837E
@@ -1739,4 +1726,27 @@ Wire Wire Line
 Connection ~ 5400 2050
 Wire Wire Line
 	5850 2050 6350 2050
+$Comp
+L taobao-components:VCC-1V2 #PWR?
+U 1 1 5C3A3C4D
+P 7050 4900
+F 0 "#PWR?" H 7050 4750 50  0001 C CNN
+F 1 "VCC-1V2" H 7100 5050 50  0000 C CNN
+F 2 "" H 7050 4900 50  0001 C CNN
+F 3 "" H 7050 4900 50  0001 C CNN
+	1    7050 4900
+	1    0    0    -1  
+$EndComp
+Text Label 7500 7400 0    50   ~ 0
+VDD-CPUFB
+Text Label 6300 9100 2    50   ~ 0
+VDD-CPUFB
+Text GLabel 5250 9100 0    50   Input ~ 0
+VDD-CPUFB
+Wire Wire Line
+	5250 9100 6300 9100
+Wire Wire Line
+	6350 8600 7000 8600
+Text GLabel 6350 8600 0    50   Input ~ 0
+CPUX-SET
 $EndSCHEMATC
