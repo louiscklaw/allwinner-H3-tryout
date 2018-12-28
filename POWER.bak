@@ -1049,17 +1049,6 @@ Wire Wire Line
 Wire Wire Line
 	8050 8100 8050 8400
 $Comp
-L Device:C_Small C?
-U 1 1 5C28EE49
-P 7400 8850
-F 0 "C?" H 7500 8900 50  0000 L CNN
-F 1 "C_Small" H 7500 8850 50  0000 L CNN
-F 2 "" H 7400 8850 50  0001 C CNN
-F 3 "~" H 7400 8850 50  0001 C CNN
-	1    7400 8850
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5C28EEDF
 P 7400 9000
@@ -1747,6 +1736,17 @@ F 1 "C_NC,0603" H 8150 7550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8050 7550 50  0001 C CNN
 F 3 "~" H 8050 7550 50  0001 C CNN
 	1    8050 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-components:C_NC,0603 C?
+U 1 1 5C3D84B0
+P 7400 8850
+F 0 "C?" H 7500 8900 50  0000 L CNN
+F 1 "C_NC,0603" H 7500 8850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7400 8850 50  0001 C CNN
+F 3 "~" H 7400 8850 50  0001 C CNN
+	1    7400 8850
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
