@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 19 34
+Sheet 20 34
 Title ""
 Date ""
 Rev ""
@@ -1232,8 +1232,6 @@ Wire Wire Line
 	7700 5650 7700 5850
 Wire Wire Line
 	7700 5850 8450 5850
-Wire Wire Line
-	8450 5850 8450 5800
 $Comp
 L power:GND #PWR?
 U 1 1 5C2600BD
@@ -1294,13 +1292,6 @@ $EndComp
 Wire Wire Line
 	9200 5500 9200 5300
 Connection ~ 9200 5300
-Wire Wire Line
-	8450 5800 9200 5800
-Wire Wire Line
-	9200 5800 9200 5700
-Connection ~ 8450 5800
-Wire Wire Line
-	8450 5800 8450 5600
 $Comp
 L Switch:SW_Push SW?
 U 1 1 5C2605C9
@@ -1320,21 +1311,21 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5C260805
-P 9850 5950
+P 9850 6000
 AR Path="/5C2567C9/5C260805" Ref="#PWR?"  Part="1" 
 AR Path="/5C2621A6/5C260805" Ref="#PWR?"  Part="1" 
 AR Path="/5C273FE9/5C29102F/5C260805" Ref="#PWR?"  Part="1" 
 AR Path="/5C273FE9/5C29103B/5C260805" Ref="#PWR?"  Part="1" 
 AR Path="/5C7B767A/5C29102F/5C260805" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9850 5700 50  0001 C CNN
-F 1 "GND" H 9900 5750 50  0000 C CNN
-F 2 "" H 9850 5950 50  0001 C CNN
-F 3 "" H 9850 5950 50  0001 C CNN
-	1    9850 5950
+F 0 "#PWR?" H 9850 5750 50  0001 C CNN
+F 1 "GND" H 9900 5800 50  0000 C CNN
+F 2 "" H 9850 6000 50  0001 C CNN
+F 3 "" H 9850 6000 50  0001 C CNN
+	1    9850 6000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9850 5950 9850 5800
+	9850 6000 9850 5800
 Text GLabel 10400 5200 2    50   Input ~ 0
 AP-RESET
 Wire Wire Line
@@ -1347,4 +1338,24 @@ Wire Wire Line
 Connection ~ 9850 5200
 Wire Wire Line
 	9850 5200 9200 5200
+Wire Wire Line
+	8450 5600 8450 5850
+$Comp
+L power:GND #PWR?
+U 1 1 5C35D681
+P 9200 6000
+AR Path="/5C2567C9/5C35D681" Ref="#PWR?"  Part="1" 
+AR Path="/5C2621A6/5C35D681" Ref="#PWR?"  Part="1" 
+AR Path="/5C273FE9/5C29102F/5C35D681" Ref="#PWR?"  Part="1" 
+AR Path="/5C273FE9/5C29103B/5C35D681" Ref="#PWR?"  Part="1" 
+AR Path="/5C7B767A/5C29102F/5C35D681" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9200 5750 50  0001 C CNN
+F 1 "GND" H 9250 5800 50  0000 C CNN
+F 2 "" H 9200 6000 50  0001 C CNN
+F 3 "" H 9200 6000 50  0001 C CNN
+	1    9200 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 5700 9200 6000
 $EndSCHEMATC
