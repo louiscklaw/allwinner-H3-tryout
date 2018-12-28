@@ -300,8 +300,8 @@ AR Path="/5C1E10A6/5C201210" Ref="R?"  Part="1"
 AR Path="/5C1E10A8/5C201210" Ref="R?"  Part="1" 
 AR Path="/5C1FD862/5C201210" Ref="R?"  Part="1" 
 AR Path="/5C259FA6/5C201210" Ref="R?"  Part="1" 
-F 0 "R1" V 1900 6450 50  0000 C CNN
-F 1 "R203,0603" V 2000 6450 50  0000 C CNN
+F 0 "R1" V 1950 6450 50  0000 C CNN
+F 1 "R203,0603" V 2050 6450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2150 6450 50  0001 C CNN
 F 3 "~" H 2150 6450 50  0001 C CNN
 	1    2150 6450
@@ -2379,4 +2379,36 @@ Text GLabel 1150 5750 0    50   Input ~ 0
 HTXCP
 Text GLabel 1150 5850 0    50   Input ~ 0
 HTXCN
+Text Label 2800 4850 2    50   ~ 0
+HDMI-TX2P
+Text Label 2800 4950 2    50   ~ 0
+HDMI-TX2N
+Text Label 2800 5050 2    50   ~ 0
+GND
+Text Label 2800 5150 2    50   ~ 0
+HDMI-TX1P
+Text Label 2800 5250 2    50   ~ 0
+HDMI-TX1N
+Text Label 2800 5450 2    50   ~ 0
+HDMI-TX0P
+Text Label 2800 5550 2    50   ~ 0
+HDMI-TX0N
+Text Label 2800 5650 2    50   ~ 0
+GND
+Text Label 2800 5750 2    50   ~ 0
+HDMI-TXCP
+Text Label 2800 5850 2    50   ~ 0
+HDMI-TXCN
+Text Label 2800 6050 2    50   ~ 0
+TX1-CEC
+Wire Wire Line
+	1800 6050 2850 6050
+Text Label 2800 6150 2    50   ~ 0
+HDMI-SCL
+Text Label 2800 6350 2    50   ~ 0
+HDMI-SDA
+Text Label 2800 6450 2    50   ~ 0
+HDMI-HPD-A
+Text Label 1650 6450 2    50   ~ 0
+HDMI-HPD
 $EndSCHEMATC
