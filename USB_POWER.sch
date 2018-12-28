@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 12 34
+Sheet 11 33
 Title ""
 Date ""
 Rev ""
@@ -5996,8 +5996,8 @@ P 11150 9050
 AR Path="/5C77255A/5C2E6048" Ref="C?"  Part="1" 
 AR Path="/5C22EE91/5C2E6048" Ref="C?"  Part="1" 
 AR Path="/5C22DA43/5C2E6048" Ref="C?"  Part="1" 
-F 0 "C?" H 11238 9096 50  0000 L CNN
-F 1 "CP22uf,16V" H 11238 9005 50  0000 L CNN
+F 0 "C?" H 11050 9100 50  0000 R CNN
+F 1 "CP22uf,16V" H 11050 9050 50  0000 R CNN
 F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 11150 9050 50  0001 C CNN
 F 3 "~" H 11150 9050 50  0001 C CNN
 	1    11150 9050
@@ -6010,8 +6010,8 @@ P 11350 9050
 AR Path="/5C77255A/5C2E63CD" Ref="C?"  Part="1" 
 AR Path="/5C22EE91/5C2E63CD" Ref="C?"  Part="1" 
 AR Path="/5C22DA43/5C2E63CD" Ref="C?"  Part="1" 
-F 0 "C?" H 11442 9096 50  0000 L CNN
-F 1 "C104,0603" H 11442 9005 50  0000 L CNN
+F 0 "C?" H 11450 9100 50  0000 L CNN
+F 1 "C104,0603" H 11450 9050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11350 9050 50  0001 C CNN
 F 3 "~" H 11350 9050 50  0001 C CNN
 	1    11350 9050
@@ -6054,11 +6054,11 @@ Wire Wire Line
 Wire Wire Line
 	13150 8350 12400 8350
 Text Label 10150 8250 0    50   ~ 0
-USB-DN1
+USB-DM1
 Text Label 10150 8350 0    50   ~ 0
 USB-DP1
 Text Label 10150 8750 0    50   ~ 0
-USB-DN2
+USB-DM2
 Text Label 10150 8850 0    50   ~ 0
 USB-DP2
 Wire Wire Line
@@ -6238,4 +6238,12 @@ Wire Wire Line
 Connection ~ 14450 8950
 Wire Wire Line
 	14450 8950 14450 8850
+Text GLabel 10150 8250 0    50   Input ~ 0
+USB-DM1
+Text GLabel 10150 8350 0    50   Input ~ 0
+USB-DP1
+Text GLabel 10150 8750 0    50   Input ~ 0
+USB-DM2
+Text GLabel 10150 8850 0    50   Input ~ 0
+USB-DP2
 $EndSCHEMATC
