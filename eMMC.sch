@@ -25,17 +25,6 @@ F 3 "" H 10800 3200 50  0001 C CNN
 	1    11500 3050
 	1    0    0    -1  
 $EndComp
-$Comp
-L taobao-components:V-flash #PWR?
-U 1 1 5C256840
-P 12400 2050
-F 0 "#PWR?" H 12400 1900 50  0001 C CNN
-F 1 "V-flash" H 12450 2200 50  0000 C CNN
-F 2 "" H 12400 2050 50  0001 C CNN
-F 3 "" H 12400 2050 50  0001 C CNN
-	1    12400 2050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	12400 2050 12400 2250
 Wire Wire Line
@@ -285,17 +274,6 @@ Wire Wire Line
 	10550 4500 10450 4500
 Connection ~ 10450 4500
 $Comp
-L taobao-components:V-flash #PWR?
-U 1 1 5C2679A3
-P 11150 5600
-F 0 "#PWR?" H 11150 5450 50  0001 C CNN
-F 1 "V-flash" H 11200 5750 50  0000 C CNN
-F 2 "" H 11150 5600 50  0001 C CNN
-F 3 "" H 11150 5600 50  0001 C CNN
-	1    11150 5600
-	1    0    0    -1  
-$EndComp
-$Comp
 L taobao-c:C105,0603 C?
 U 1 1 5C267ABC
 P 11000 5900
@@ -351,17 +329,6 @@ Wire Wire Line
 	11300 6100 11150 6100
 Connection ~ 11150 6100
 $Comp
-L taobao-components:V-flash #PWR?
-U 1 1 5C26DB4B
-P 12250 5650
-F 0 "#PWR?" H 12250 5500 50  0001 C CNN
-F 1 "V-flash" H 12300 5800 50  0000 C CNN
-F 2 "" H 12250 5650 50  0001 C CNN
-F 3 "" H 12250 5650 50  0001 C CNN
-	1    12250 5650
-	1    0    0    -1  
-$EndComp
-$Comp
 L taobao-r:R103,0603 R?
 U 1 1 5C26DC1C
 P 12650 5850
@@ -380,17 +347,6 @@ Text Label 13700 5850 2    50   ~ 0
 eMMC-CMD
 Wire Wire Line
 	13700 5850 12750 5850
-$Comp
-L taobao-components:V-flash #PWR?
-U 1 1 5C5BE76C
-P 5650 2100
-F 0 "#PWR?" H 5650 1950 50  0001 C CNN
-F 1 "V-flash" H 5700 2250 50  0000 C CNN
-F 2 "" H 5650 2100 50  0001 C CNN
-F 3 "" H 5650 2100 50  0001 C CNN
-	1    5650 2100
-	1    0    0    -1  
-$EndComp
 $Comp
 L taobao-r:R0,0603 R?
 U 1 1 5C5C07D8
@@ -419,6 +375,50 @@ F 1 "VCC-IO" H 4700 2250 50  0000 C CNN
 F 2 "" H 4650 2100 50  0001 C CNN
 F 3 "" H 4650 2100 50  0001 C CNN
 	1    4650 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-components:VCC-FLASH #PWR?
+U 1 1 5C4011A8
+P 5650 2100
+F 0 "#PWR?" H 5650 1950 50  0001 C CNN
+F 1 "VCC-FLASH" H 5700 2250 50  0000 C CNN
+F 2 "" H 5650 2100 50  0001 C CNN
+F 3 "" H 5650 2100 50  0001 C CNN
+	1    5650 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-components:VCC-FLASH #PWR?
+U 1 1 5C401637
+P 12400 2050
+F 0 "#PWR?" H 12400 1900 50  0001 C CNN
+F 1 "VCC-FLASH" H 12450 2200 50  0000 C CNN
+F 2 "" H 12400 2050 50  0001 C CNN
+F 3 "" H 12400 2050 50  0001 C CNN
+	1    12400 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-components:VCC-FLASH #PWR?
+U 1 1 5C4016FB
+P 11150 5600
+F 0 "#PWR?" H 11150 5450 50  0001 C CNN
+F 1 "VCC-FLASH" H 11200 5750 50  0000 C CNN
+F 2 "" H 11150 5600 50  0001 C CNN
+F 3 "" H 11150 5600 50  0001 C CNN
+	1    11150 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-components:VCC-FLASH #PWR?
+U 1 1 5C4018A0
+P 12250 5650
+F 0 "#PWR?" H 12250 5500 50  0001 C CNN
+F 1 "VCC-FLASH" H 12300 5800 50  0000 C CNN
+F 2 "" H 12250 5650 50  0001 C CNN
+F 3 "" H 12250 5650 50  0001 C CNN
+	1    12250 5650
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

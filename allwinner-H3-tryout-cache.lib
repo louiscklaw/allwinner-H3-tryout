@@ -1444,20 +1444,6 @@ X USBVBUS 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# taobao-components_V-flash
-#
-DEF taobao-components_V-flash #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "taobao-components_V-flash" 0 100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -50 50 50 50 N
-P 2 0 1 0 0 0 0 50 N
-X V-flash 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
 # taobao-components_VCC-1V2
 #
 DEF taobao-components_VCC-1V2 #PWR 0 0 Y Y 1 F P
@@ -1497,6 +1483,20 @@ DRAW
 P 2 0 1 0 -50 50 50 50 N
 P 2 0 1 0 0 0 0 50 N
 X VCC-5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# taobao-components_VCC-FLASH
+#
+DEF taobao-components_VCC-FLASH #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "taobao-components_VCC-FLASH" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -50 50 50 50 N
+P 2 0 1 0 0 0 0 50 N
+X VCC-FLASH 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
