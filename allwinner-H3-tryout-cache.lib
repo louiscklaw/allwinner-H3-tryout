@@ -1098,6 +1098,20 @@ X MDI3- 9 -900 1800 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# taobao-components_HDMI-5V
+#
+DEF taobao-components_HDMI-5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "taobao-components_HDMI-5V" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -50 50 50 50 N
+P 2 0 1 0 0 0 0 50 N
+X HDMI-5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # taobao-components_HDMI_19plug_type_A
 #
 DEF taobao-components_HDMI_19plug_type_A U 0 40 Y Y 1 F N
@@ -1917,20 +1931,6 @@ DRAW
 C 0 75 25 0 1 0 N
 P 2 0 1 0 0 0 0 50 N
 X VUSB_5V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# taobao-components_V_HDMI
-#
-DEF taobao-components_V_HDMI #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "taobao-components_V_HDMI" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C 0 75 25 0 1 0 N
-P 2 0 1 0 0 0 0 50 N
-X V_HDMI 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
