@@ -668,85 +668,13 @@ F 3 "" H 10800 2900 50  0001 C CNN
 	8    9550 4150
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5C29337F
-P 6550 3850
-AR Path="/5C273FE9/5C2931D3/5C29337F" Ref="TP?"  Part="1" 
-AR Path="/5C273FE9/5C29E760/5C29337F" Ref="TP?"  Part="1" 
-AR Path="/5C7B767A/5C2931D3/5C29337F" Ref="TP?"  Part="1" 
-F 0 "TP?" H 6650 4000 50  0000 L CNN
-F 1 "TestPoint" V 6650 3900 50  0000 L CNN
-F 2 "" H 6750 3850 50  0001 C CNN
-F 3 "~" H 6750 3850 50  0001 C CNN
-	1    6550 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5C29348D
-P 6300 3850
-AR Path="/5C273FE9/5C2931D3/5C29348D" Ref="TP?"  Part="1" 
-AR Path="/5C273FE9/5C29E760/5C29348D" Ref="TP?"  Part="1" 
-AR Path="/5C7B767A/5C2931D3/5C29348D" Ref="TP?"  Part="1" 
-F 0 "TP?" H 6400 4000 50  0000 L CNN
-F 1 "TestPoint" V 6400 3900 50  0000 L CNN
-F 2 "" H 6500 3850 50  0001 C CNN
-F 3 "~" H 6500 3850 50  0001 C CNN
-	1    6300 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5C2934A9
-P 6050 3850
-AR Path="/5C273FE9/5C2931D3/5C2934A9" Ref="TP?"  Part="1" 
-AR Path="/5C273FE9/5C29E760/5C2934A9" Ref="TP?"  Part="1" 
-AR Path="/5C7B767A/5C2931D3/5C2934A9" Ref="TP?"  Part="1" 
-F 0 "TP?" H 6150 4000 50  0000 L CNN
-F 1 "TestPoint" V 6150 3900 50  0000 L CNN
-F 2 "" H 6250 3850 50  0001 C CNN
-F 3 "~" H 6250 3850 50  0001 C CNN
-	1    6050 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5C2934C7
-P 5750 3850
-AR Path="/5C273FE9/5C2931D3/5C2934C7" Ref="TP?"  Part="1" 
-AR Path="/5C273FE9/5C29E760/5C2934C7" Ref="TP?"  Part="1" 
-AR Path="/5C7B767A/5C2931D3/5C2934C7" Ref="TP?"  Part="1" 
-F 0 "TP?" H 5850 4000 50  0000 L CNN
-F 1 "TestPoint" V 5850 3900 50  0000 L CNN
-F 2 "" H 5950 3850 50  0001 C CNN
-F 3 "~" H 5950 3850 50  0001 C CNN
-	1    5750 3850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9000 4250 6050 4250
-Wire Wire Line
-	6050 4250 6050 3850
-Wire Wire Line
-	9000 4350 5750 4350
-Wire Wire Line
-	5750 4350 5750 3850
-Wire Wire Line
-	9000 3950 6550 3950
-Wire Wire Line
-	6550 3950 6550 3850
-Wire Wire Line
-	9000 4050 6300 4050
-Wire Wire Line
-	6300 4050 6300 3850
-Text Label 7350 4250 0    50   ~ 0
+Text Label 6700 4250 0    50   ~ 0
 EPHY-RXP
-Text Label 7350 4350 0    50   ~ 0
+Text Label 6700 4350 0    50   ~ 0
 EPHY-RXN
-Text Label 7350 3950 0    50   ~ 0
+Text Label 6700 3950 0    50   ~ 0
 EPHY-TXP
-Text Label 7350 4050 0    50   ~ 0
+Text Label 6700 4050 0    50   ~ 0
 EPHY-TXN
 $Comp
 L taobao-components:VCC3V3-EPHY #PWR?
@@ -952,4 +880,80 @@ Wire Wire Line
 	7950 5100 7950 4450
 Wire Wire Line
 	7950 4450 8400 4450
+Wire Wire Line
+	6400 3950 9000 3950
+Wire Wire Line
+	6400 4050 9000 4050
+Wire Wire Line
+	6400 4250 9000 4250
+Wire Wire Line
+	6400 4350 9000 4350
+Text GLabel 6400 3950 0    50   Input ~ 0
+EPHY-TXP
+Text GLabel 6400 4050 0    50   Input ~ 0
+EPHY-TXN
+Text GLabel 6400 4250 0    50   Input ~ 0
+EPHY-RXP
+Text GLabel 6400 4350 0    50   Input ~ 0
+EPHY-RXN
+Text GLabel 4900 4000 0    50   Input ~ 0
+EPHY-TXP
+Text GLabel 4900 4100 0    50   Input ~ 0
+EPHY-TXN
+Text GLabel 4900 4200 0    50   Input ~ 0
+EPHY-RXP
+Text GLabel 4900 4300 0    50   Input ~ 0
+EPHY-RXN
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5C3417E1
+P 5300 4000
+F 0 "TP?" V 5250 4200 50  0000 L CNN
+F 1 "TestPoint" V 5300 4200 50  0000 L CNN
+F 2 "" H 5500 4000 50  0001 C CNN
+F 3 "~" H 5500 4000 50  0001 C CNN
+	1    5300 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5C34247F
+P 5300 4100
+F 0 "TP?" V 5250 4300 50  0000 L CNN
+F 1 "TestPoint" V 5300 4300 50  0000 L CNN
+F 2 "" H 5500 4100 50  0001 C CNN
+F 3 "~" H 5500 4100 50  0001 C CNN
+	1    5300 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5C34249F
+P 5300 4200
+F 0 "TP?" V 5250 4400 50  0000 L CNN
+F 1 "TestPoint" V 5300 4400 50  0000 L CNN
+F 2 "" H 5500 4200 50  0001 C CNN
+F 3 "~" H 5500 4200 50  0001 C CNN
+	1    5300 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5C3424C1
+P 5300 4300
+F 0 "TP?" V 5250 4500 50  0000 L CNN
+F 1 "TestPoint" V 5300 4500 50  0000 L CNN
+F 2 "" H 5500 4300 50  0001 C CNN
+F 3 "~" H 5500 4300 50  0001 C CNN
+	1    5300 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4900 4000 5300 4000
+Wire Wire Line
+	4900 4100 5300 4100
+Wire Wire Line
+	4900 4200 5300 4200
+Wire Wire Line
+	4900 4300 5300 4300
 $EndSCHEMATC
