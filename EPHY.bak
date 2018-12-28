@@ -896,4 +896,64 @@ Text GLabel 6400 4250 0    50   Input ~ 0
 EPHY-RXP
 Text GLabel 6400 4350 0    50   Input ~ 0
 EPHY-RXN
+Text GLabel 4900 4000 0    50   Input ~ 0
+EPHY-TXP
+Text GLabel 4900 4100 0    50   Input ~ 0
+EPHY-TXN
+Text GLabel 4900 4200 0    50   Input ~ 0
+EPHY-RXP
+Text GLabel 4900 4300 0    50   Input ~ 0
+EPHY-RXN
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5C3417E1
+P 5300 4000
+F 0 "TP?" V 5250 4200 50  0000 L CNN
+F 1 "TestPoint" V 5300 4200 50  0000 L CNN
+F 2 "" H 5500 4000 50  0001 C CNN
+F 3 "~" H 5500 4000 50  0001 C CNN
+	1    5300 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5C34247F
+P 5300 4100
+F 0 "TP?" V 5250 4300 50  0000 L CNN
+F 1 "TestPoint" V 5300 4300 50  0000 L CNN
+F 2 "" H 5500 4100 50  0001 C CNN
+F 3 "~" H 5500 4100 50  0001 C CNN
+	1    5300 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5C34249F
+P 5300 4200
+F 0 "TP?" V 5250 4400 50  0000 L CNN
+F 1 "TestPoint" V 5300 4400 50  0000 L CNN
+F 2 "" H 5500 4200 50  0001 C CNN
+F 3 "~" H 5500 4200 50  0001 C CNN
+	1    5300 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5C3424C1
+P 5300 4300
+F 0 "TP?" V 5250 4500 50  0000 L CNN
+F 1 "TestPoint" V 5300 4500 50  0000 L CNN
+F 2 "" H 5500 4300 50  0001 C CNN
+F 3 "~" H 5500 4300 50  0001 C CNN
+	1    5300 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4900 4000 5300 4000
+Wire Wire Line
+	4900 4100 5300 4100
+Wire Wire Line
+	4900 4200 5300 4200
+Wire Wire Line
+	4900 4300 5300 4300
 $EndSCHEMATC

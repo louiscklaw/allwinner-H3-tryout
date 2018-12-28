@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 20 34
+Sheet 21 34
 Title ""
 Date ""
 Rev ""
@@ -1891,4 +1891,14 @@ Wire Wire Line
 Connection ~ 9600 5350
 Wire Wire Line
 	9600 5350 9600 4800
+Text GLabel 7500 4800 0    50   Input ~ 0
+X32KI
+Text GLabel 7500 5350 0    50   Input ~ 0
+X32KO
+Wire Wire Line
+	7500 4800 7750 4800
+Connection ~ 7750 4800
+Wire Wire Line
+	7500 5350 7750 5350
+Connection ~ 7750 5350
 $EndSCHEMATC
