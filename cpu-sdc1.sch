@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 16 34
+Sheet 17 34
 Title ""
 Date ""
 Rev ""
@@ -108,36 +108,8 @@ Wire Wire Line
 	7800 3150 8000 3150
 Text Label 8850 3150 2    50   ~ 0
 WL-SDIO-CLK
-Wire Wire Line
-	8850 3150 8200 3150
 Text Label 8850 3250 2    50   ~ 0
 WL-SDIO-CMD
-Wire Wire Line
-	8850 3250 7800 3250
-Wire Wire Line
-	8850 3350 7800 3350
-Wire Wire Line
-	8850 3450 7800 3450
-Wire Wire Line
-	8850 3550 7800 3550
-Wire Wire Line
-	8850 3650 7800 3650
-Wire Wire Line
-	8850 3750 7800 3750
-Wire Wire Line
-	8850 3850 7800 3850
-Wire Wire Line
-	8850 3950 7800 3950
-Wire Wire Line
-	8850 4050 7800 4050
-Wire Wire Line
-	8850 4150 7800 4150
-Wire Wire Line
-	8850 4250 7800 4250
-Wire Wire Line
-	8850 4350 7800 4350
-Wire Wire Line
-	8850 4450 7800 4450
 Text Label 8850 3350 2    50   ~ 0
 WL-SDIO-D0
 Text Label 8850 3450 2    50   ~ 0
@@ -3729,4 +3701,60 @@ C0 6B 01 00 38 F0 5A 00 00 0E BC 16 00 80 03 AF 05 00 E0 C0 6B 01 00 38 F0 5A 00
 44 AE 42 60 82 
 EndData
 $EndBitmap
+Text GLabel 8950 3150 2    50   Input ~ 0
+WL-SDIO-CLK
+Text GLabel 8950 3250 2    50   Input ~ 0
+WL-SDIO-CMD
+Text GLabel 8950 3350 2    50   Input ~ 0
+WL-SDIO-D0
+Text GLabel 8950 3450 2    50   Input ~ 0
+WL-SDIO-D1
+Text GLabel 8950 3550 2    50   Input ~ 0
+WL-SDIO-D2
+Text GLabel 8950 3650 2    50   Input ~ 0
+WL-SDIO-D3
+Text GLabel 8950 3750 2    50   Input ~ 0
+UART1-TX
+Text GLabel 8950 3850 2    50   Input ~ 0
+UART1-RX
+Text GLabel 8950 3950 2    50   Input ~ 0
+UART1-RTS
+Text GLabel 8950 4050 2    50   Input ~ 0
+UART1-CTS
+Text GLabel 8950 4150 2    50   Input ~ 0
+WL-WAKE-AP
+Text GLabel 8950 4250 2    50   Input ~ 0
+BT-WAKE-AP
+Text GLabel 8950 4350 2    50   Input ~ 0
+BT-RST-N
+Text GLabel 8950 4450 2    50   Input ~ 0
+AP-WAKE-BT
+Wire Wire Line
+	8200 3150 8950 3150
+Wire Wire Line
+	7800 3250 8950 3250
+Wire Wire Line
+	7800 3350 8950 3350
+Wire Wire Line
+	7800 3450 8950 3450
+Wire Wire Line
+	7800 3550 8950 3550
+Wire Wire Line
+	7800 3650 8950 3650
+Wire Wire Line
+	7800 3750 8950 3750
+Wire Wire Line
+	7800 3850 8950 3850
+Wire Wire Line
+	7800 3950 8950 3950
+Wire Wire Line
+	7800 4050 8950 4050
+Wire Wire Line
+	7800 4150 8950 4150
+Wire Wire Line
+	7800 4250 8950 4250
+Wire Wire Line
+	7800 4350 8950 4350
+Wire Wire Line
+	7800 4450 8950 4450
 $EndSCHEMATC
