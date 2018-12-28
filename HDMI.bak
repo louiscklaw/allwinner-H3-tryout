@@ -2411,4 +2411,6 @@ Text Label 2800 6450 2    50   ~ 0
 HDMI-HPD-A
 Text Label 1650 6450 2    50   ~ 0
 HDMI-HPD
+Text Label 2800 6250 2    50   ~ 0
+GND
 $EndSCHEMATC
