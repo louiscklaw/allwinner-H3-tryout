@@ -3040,7 +3040,7 @@ Wire Wire Line
 Connection ~ 10350 5650
 Connection ~ 10550 5650
 Wire Wire Line
-	10550 5650 10550 5550
+	10550 5650 10550 5600
 $Comp
 L taobao-components:AP2127K-ADJTRG1 U?
 U 1 1 5C2627F9
@@ -6658,15 +6658,11 @@ Wire Wire Line
 Wire Wire Line
 	5550 3750 6650 3750
 Wire Wire Line
-	5550 3850 6650 3850
-Wire Wire Line
 	5550 3950 6650 3950
 Wire Wire Line
 	5550 4050 6650 4050
 Wire Wire Line
 	5550 4150 6650 4150
-Wire Wire Line
-	5550 4250 6650 4250
 Wire Wire Line
 	5550 4350 6650 4350
 Wire Wire Line
@@ -6716,7 +6712,7 @@ CSI0-PWDN
 Text Label 5700 4850 0    50   ~ 0
 CSI-VSYNC
 Text Label 5700 4950 0    50   ~ 0
-CSI0-D18RESET
+CSI0-RESET#
 Text Label 6250 3350 0    50   ~ 0
 CSI-DQ4
 Text Label 6250 3450 0    50   ~ 0
@@ -6861,7 +6857,7 @@ CSIO-SCK
 Text GLabel 1650 3050 0    50   Input ~ 0
 CSI-PWR-EN
 Text GLabel 1650 3150 0    50   Input ~ 0
-CSI0-RST
+CSI0-RST#
 Text GLabel 1650 3250 0    50   Input ~ 0
 CSI0-PWDN
 Text GLabel 1650 3350 0    50   Input ~ 0
@@ -6879,7 +6875,7 @@ CSI-SIO-C
 Text Label 2300 3050 2    50   ~ 0
 CSI-PWR-EN
 Text Label 2300 3150 2    50   ~ 0
-CSI0-RESET
+CSI0-RESET#
 Text Label 2300 3250 2    50   ~ 0
 CSI0-PWDN
 Text Label 2300 3350 2    50   ~ 0
@@ -7000,4 +6996,115 @@ Wire Wire Line
 Connection ~ 10550 4550
 Wire Wire Line
 	10550 4550 10550 4500
+Text Label 11000 5600 2    50   ~ 0
+CSI-DOVDD
+Wire Wire Line
+	11000 5600 10550 5600
+Connection ~ 10550 5600
+Wire Wire Line
+	10550 5600 10550 5550
+$Comp
+L taobao-components:CSI-DOVDD #PWR?
+U 1 1 5C4D01F0
+P 6550 6100
+AR Path="/5C259FA6/5C4D01F0" Ref="#PWR?"  Part="1" 
+AR Path="/5C21B42E/5C4D01F0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6550 5950 50  0001 C CNN
+F 1 "CSI-DOVDD" H 6555 6223 50  0000 C CNN
+F 2 "" H 6550 6100 50  0001 C CNN
+F 3 "" H 6550 6100 50  0001 C CNN
+	1    6550 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-r:R202,0603 R?
+U 1 1 5C4D038A
+P 6150 6250
+F 0 "R?" V 5900 6250 50  0000 C CNN
+F 1 "R202,0603" V 6000 6250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6150 6250 50  0001 C CNN
+F 3 "~" H 6150 6250 50  0001 C CNN
+	1    6150 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L taobao-r:R202,0603 R?
+U 1 1 5C4D0429
+P 6150 6350
+F 0 "R?" V 5900 6350 50  0000 C CNN
+F 1 "R202,0603" V 6000 6350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6150 6350 50  0001 C CNN
+F 3 "~" H 6150 6350 50  0001 C CNN
+	1    6150 6350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6250 6250 6550 6250
+Wire Wire Line
+	6550 6250 6550 6100
+Wire Wire Line
+	6250 6350 6550 6350
+Wire Wire Line
+	6550 6350 6550 6250
+Connection ~ 6550 6250
+Text Label 5350 6250 0    50   ~ 0
+CSI0-RESET#
+Text Label 5350 6350 0    50   ~ 0
+CSI0-PWDN
+Wire Wire Line
+	5350 6350 6050 6350
+Wire Wire Line
+	5350 6250 6050 6250
+$Comp
+L taobao-components:C_NC,0603 C?
+U 1 1 5C4EC572
+P 5250 3850
+F 0 "C?" V 5000 3850 50  0000 C CNN
+F 1 "C_NC,0603" V 5100 3850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5250 3850 50  0001 C CNN
+F 3 "~" H 5250 3850 50  0001 C CNN
+	1    5250 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C4EC6FA
+P 5000 3850
+F 0 "#PWR?" H 5000 3600 50  0001 C CNN
+F 1 "GND" V 5000 3700 50  0000 R CNN
+F 2 "" H 5000 3850 50  0001 C CNN
+F 3 "" H 5000 3850 50  0001 C CNN
+	1    5000 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 3850 5150 3850
+Wire Wire Line
+	5350 3850 6650 3850
+$Comp
+L taobao-components:C_NC,0603 C?
+U 1 1 5C4F980F
+P 5250 4250
+F 0 "C?" V 5000 4250 50  0000 C CNN
+F 1 "C_NC,0603" V 5100 4250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5250 4250 50  0001 C CNN
+F 3 "~" H 5250 4250 50  0001 C CNN
+	1    5250 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C4F9815
+P 5000 4250
+F 0 "#PWR?" H 5000 4000 50  0001 C CNN
+F 1 "GND" V 5000 4100 50  0000 R CNN
+F 2 "" H 5000 4250 50  0001 C CNN
+F 3 "" H 5000 4250 50  0001 C CNN
+	1    5000 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 4250 5150 4250
+Wire Wire Line
+	5350 4250 6650 4250
 $EndSCHEMATC
